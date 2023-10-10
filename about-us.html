@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="font-lato.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="team-album.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <title>About Omnivio</title>
+  </head>
+  <body>
+    <div class="container-fluid p-0 m-0">
+      <!--Navbar-->
+
+      <nav class="navbar navbar-dark navbar-expand-lg bg--primary">
+        <div class="container-fluid px-4">
+          <div class="logo mr-4">
+            <a href="index.html">
+              <svg
+                id="Layer_2"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 446.2306 132.4144"
+              >
+                <defs>
+                  <style>
+                    .cls-1,
+                    .cls-2 {
+                      stroke-width: 0px;
+                      fill: #fff;
+                    }
+                  </style>
+                </defs>
+                <g id="Layer_1-2">
+                  <polygon
+                    class="cls-2"
+                    points="57.3364 0 0 33.1036 0 99.3108 12.2073 106.3592 12.2073 40.152 57.3364 14.0968 102.4654 40.152 102.4654 92.2624 57.3364 118.3176 33.57 104.5963 33.57 52.4859 57.3364 38.7647 81.1027 52.4859 81.1027 79.9285 57.4138 93.605 54.9328 92.0985 54.9328 64.8199 69.6986 56.2947 57.3364 49.3365 42.7255 57.7715 42.7255 98.9681 57.2589 107.7912 93.31 86.9769 93.31 45.4375 57.3364 24.6679 21.3627 45.4375 21.3627 111.6447 57.3364 132.4144 114.6727 99.3108 114.6727 33.1036 57.3364 0"
+                  />
+                  <path
+                    class="cls-1"
+                    d="m173.7213,32.8414c9.2427,0,17.0776,3.1084,23.5029,9.3252s9.6382,13.7974,9.6382,22.7427c0,8.9155-3.2129,16.481-9.6382,22.6978s-14.2603,9.3252-23.5029,9.3252c-9.2134,0-17.0176-3.1084-23.4131-9.3252-6.396-6.2168-9.5938-13.7822-9.5938-22.6978,0-8.9453,3.1978-16.5259,9.5938-22.7427,6.3955-6.2168,14.1997-9.3252,23.4131-9.3252Zm.1792,59.6182c7.7822,0,14.3491-2.6611,19.7012-7.9834,5.3516-5.3223,8.0283-11.8442,8.0283-19.5669,0-7.7524-2.6768-14.29-8.0283-19.6123-5.3521-5.3223-11.9189-7.9834-19.7012-7.9834-7.8125,0-14.4238,2.6611-19.8354,7.9834-5.4121,5.3223-8.1177,11.8599-8.1177,19.6123,0,7.7227,2.7056,14.2446,8.1177,19.5669,5.4116,5.3223,12.0229,7.9834,19.8354,7.9834Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="m221.3536,54.98v7.2456h.1787c3.3389-5.3672,7.7075-8.0508,13.1045-8.0508,6.291,0,10.7188,3.2949,13.2832,9.8843,3.876-6.5894,8.6465-9.8843,14.312-9.8843,4.2637,0,7.7075,1.521,10.3315,4.562,2.6235,3.0415,3.9355,7.082,3.9355,12.1206v25.2695h-4.3828v-23.3462c0-4.4429-.9395-7.939-2.8179-10.4883s-4.5171-3.8237-7.916-3.8237c-2.5347,0-4.7407.7603-6.6191,2.2808-1.8789,1.5205-3.8174,3.9658-5.8145,7.335v28.0425h-4.4277v-23.436c0-4.5615-.9771-8.0728-2.9297-10.5327-1.9531-2.4595-4.5693-3.6895-7.8491-3.6895-4.771,0-8.9004,2.937-12.3887,8.8105v28.8477h-4.3833v-41.147h4.3833Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="m292.1529,54.98v7.1562h.1792c3.4282-5.3071,7.9453-7.9614,13.5513-7.9614,4.6514,0,8.3638,1.4917,11.1367,4.4727,2.7729,2.9819,4.1592,7.1113,4.1592,12.3887v25.0908h-4.3828v-23.436c0-9.4814-3.7275-14.2222-11.1812-14.2222-5.4565,0-9.9443,2.937-13.4624,8.8105v28.8477h-4.3828v-41.147h4.3828Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="m337.817,33.6465v7.5137h-4.4277v-7.5137h4.4277Zm0,21.3335v41.147h-4.4277v-41.147h4.4277Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="m383.3473,54.98l-17.7168,41.9521h-2.6421l-18.7754-41.9521h4.4565l15.5132,34.6616,14.8809-34.6616h4.2837Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="m394.1256,33.6465v7.5137h-4.4277v-7.5137h4.4277Zm0,21.3335v41.147h-4.4277v-41.147h4.4277Z"
+                  />
+                  <path
+                    class="cls-1"
+                    d="m425.3439,54.1749c5.9634,0,10.9351,2.043,14.916,6.1274,3.9805,4.0854,5.9707,9.1841,5.9707,15.2959,0,6.0825-1.9902,11.1592-5.9707,15.229-3.981,4.0698-8.9526,6.105-14.916,6.105s-10.9507-2.0352-14.9604-6.105c-4.0107-4.0698-6.0156-9.1465-6.0156-15.229,0-6.1118,2.0049-11.2104,6.0156-15.2959,4.0098-4.0845,8.9966-6.1274,14.9604-6.1274Zm0,38.4634c4.6216,0,8.4824-1.6167,11.584-4.8525,3.1006-3.2349,4.6514-7.2969,4.6514-12.1875,0-4.8594-1.5586-8.9297-4.6738-12.21-3.1162-3.2793-6.9702-4.9194-11.5615-4.9194-4.6514,0-8.5356,1.6255-11.6509,4.875-3.1162,3.25-4.6738,7.335-4.6738,12.2544,0,4.8906,1.5576,8.9526,4.6738,12.1875,3.1152,3.2358,6.9995,4.8525,11.6509,4.8525Z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+          <button
+            class="reverse navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNavAltMarkup"
+          >
+            <div class="navbar-nav">
+              <a
+                class="nav-link text-white"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+              <a
+                class="nav-link text-white active"
+                aria-current="page"
+                href="about-us.html"
+                >About Us</a
+              >
+              <a class="nav-link text-white" href="product.html">Product</a>
+              <a class="nav-link text-white me-2" href="contact-us.html"
+                >Contact Us</a
+              >
+              <button
+                class="cta-button-white rounded-2 text--primary"
+                onclick="window.location.href='contact-for-demo.html';"
+              >
+                Request a Demo
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!--Hero Section-->
+
+      <section class="w-100 bg-white">
+        <div
+          class="w-100 mx-auto background-image-contain about-us-hero-image about-us-hero-headline d-flex flex-row justify-content-center"
+          id="about-us-hero-image"
+        >
+          <h1 class="hero-headline text-white text-center">
+            Enabling <span class="fw-light fst-italic">&</span> Accelerating
+            Omnichannel!
+          </h1>
+        </div>
+      </section>
+
+      <!-- Team Section -->
+
+      <section class="w-100 p-4 pb-1 team-section">
+        <h1 class="hero-headline text--primary text-center">
+          We are omni too (oops!),<br />hybrid in our work culture!
+        </h1>
+        <h5 class="text-center">
+          A team that works hard, has loads of fun, and is creating impact!
+        </h5>
+        <div class="team-album-container">
+          <input type="radio" name="slider" id="item-1" checked />
+          <input type="radio" name="slider" id="item-2" />
+          <input type="radio" name="slider" id="item-3" />
+          <div class="cards">
+            <label class="card" for="item-1" id="team-pic-1">
+              <img src="Assets/images/team-1.jpg" alt="team-pic" />
+            </label>
+            <label class="card" for="item-2" id="team-pic-2">
+              <img src="Assets/images/team-2.jpg" alt="team-pic" />
+            </label>
+            <label class="card" for="item-3" id="team-pic-3">
+              <img src="Assets/images/team-1.jpg" alt="team-pic" />
+            </label>
+          </div>
+        </div>
+      </section>
+
+      <!--Life at Omnivio Section-->
+
+      <section class="w-100">
+        <div class="life-at-omnivio-area">
+          <div class="d-flex flex-column life-at-omnivio-content">
+            <h1 class="hero-headline text--primary mb-md-4 mb-sm-3">
+              Life at Omnivio
+            </h1>
+            <h5 class="mb-md-4 mb-sm-3">
+              At Omnivio, we don't just work; we thrive in an environment that
+              celebrates ownership, collaboration, and the relentless pursuit of
+              excellence. Our culture is the heart and soul of our organization,
+              and our team is the driving force behind our success. Omnivio
+              teams have high levels of accountability and are output and
+              outcome focused.
+            </h5>
+          </div>
+          <img
+            src="Assets/images/4-life-colored.png"
+            alt="life-at-omnivio"
+            class="life-at-omnivio-image"
+          />
+        </div>
+      </section>
+
+      <!--Mentor Section-->
+
+      <section class="w-100 mentor-section">
+        <div
+          class="w-100 d-flex flex-column align-items-center bg--primary rounded-3 mx-auto mentor-main-container"
+        >
+          <div
+            class="d-flex flex-md-row flex-sm-column justify-content-around align-items-center mentor-intro-container"
+          >
+            <!-- <img
+              src="Assets/images/omnivio-logo-glow.png"
+              alt="omnivio-logo-glow"
+              class="w-40"
+            /> -->
+            <div
+              class="d-flex flex-column justify-content-center mentor-intro-content"
+            >
+              <h1 class="hero-headline text-center text-white mb-md-4 mb-sm-3">
+                Backed by the Industry’s Best
+              </h1>
+              <h5 class="mb-md-4 mb-s-3 lh-base text-white text-center">
+                We have the honour and privilege of being supported and endorsed
+                by some of the prominent top-tier funds, syndicates,
+                entrepreneurs, and angels from the industry - a testament to the
+                strength of our team and potential of our mission. We are very
+                thankful for the same.
+              </h5>
+            </div>
+          </div>
+          <div
+            class="d-flex flex-column w-100 bg-white mentor-profile-container"
+          >
+            <div
+              class="d-flex flex-column justify-content-center align-items-center w-100 p-md-3 p-sm-1"
+            >
+              <div
+                class="d-flex flex-row justify-content-center align-items-center mb-md-1 w-100"
+              >
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-1"
+                ></div>
+              </div>
+              <div
+                class="d-flex flex-row justify-content-center align-items-center mb-1 w-100"
+              >
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-2"
+                ></div>
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-3"
+                ></div>
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-4"
+                ></div>
+              </div>
+              <div
+                class="d-flex flex-row justify-content-center align-items-center mb-1 w-100"
+              >
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-5"
+                ></div>
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-6"
+                ></div>
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-7"
+                ></div>
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-8"
+                ></div>
+                <div
+                  class="background-image-contain mentor-logo-container"
+                  id="mentor-logo-9"
+                ></div>
+              </div>
+            </div>
+
+            <div class="d-flex flex-column flex-nowrap mentor-area-container">
+              <h2 class="my-md-4 my-sm-3 text-center fw-semibold">
+                Marquee Advisors <span class="fw-light">&</span> Investors
+              </h2>
+              <div class="w-100 mentor-area">
+                <div class="mentor-group">
+                  <div class="mentor-grid mb-md-3 mb-sm-2">
+                    <div class="mentor-profile">
+                      <div class="d-flex flex-row">
+                        <img
+                          src="Assets/mentors/Kunal-Shah.png"
+                          alt="mentor profile image"
+                          class="mentor-profile-image me-3"
+                        />
+                        <div class="mentor-info d-flex flex-column">
+                          <h5 class="text--primary fw-semibold mb-1">
+                            Kunal Shah
+                          </h5>
+                          <p class="mb-1">Serial Entrepreneur</p>
+                          <div
+                            class="background-image-contain-left mentor-company-logo"
+                            id="mentor-logo-16"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mentor-profile">
+                      <div class="d-flex flex-row">
+                        <img
+                          src="Assets/mentors/Deepak-Jain.png"
+                          alt="mentor profile image"
+                          class="mentor-profile-image me-3"
+                        />
+                        <div class="mentor-info d-flex flex-column">
+                          <h5 class="text--primary fw-semibold mb-1">
+                            Deepak Jain
+                          </h5>
+                          <p class="mb-1">
+                            APAC Partner, BAIN Retail & Auto-motive Lead
+                          </p>
+                          <div
+                            class="background-image-contain-left mentor-company-logo"
+                            id="mentor-logo-17"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mentor-profile">
+                      <div class="d-flex flex-row">
+                        <img
+                          src="Assets/mentors/Sameer-Guglani.png"
+                          alt="mentor profile image"
+                          class="mentor-profile-image me-3"
+                        />
+                        <div class="mentor-info d-flex flex-column">
+                          <h5 class="text--primary fw-semibold mb-1">
+                            Sameer Guglani
+                          </h5>
+                          <p class="mb-1">Partner Super-Morpheus</p>
+                          <div
+                            class="background-image-contain-left mentor-company-logo"
+                            id="mentor-logo-5"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="mentor-profile">
+                      <div class="d-flex flex-row">
+                        <img
+                          src="Assets/mentors/Kushal-Nahata.png"
+                          alt="mentor profile image"
+                          class="mentor-profile-image me-3"
+                        />
+                        <div class="mentor-info d-flex flex-column">
+                          <h5 class="text--primary fw-semibold mb-1">
+                            Kushal Nahata
+                          </h5>
+                          <p class="mb-1">Co-founder & CEO, FarEye</p>
+                          <div
+                            class="background-image-contain-left mentor-company-logo"
+                            id="mentor-logo-10"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mentor-profile">
+                      <div class="d-flex flex-row">
+                        <img
+                          src="Assets/mentors/Gaurang-Jhunjhunwala.png"
+                          alt="mentor profile image"
+                          class="mentor-profile-image me-3"
+                        />
+                        <div class="mentor-info d-flex flex-column">
+                          <h5 class="text--primary fw-semibold mb-1">
+                            Gaurang Jhunjhunwala
+                          </h5>
+                          <p class="mb-1">Partner, McKinsey's Dubai</p>
+                          <div
+                            class="background-image-contain-left mentor-company-logo"
+                            id="mentor-logo-11"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="mentor-profile">
+                      <div class="d-flex flex-row">
+                        <img
+                          src="Assets/mentors/Nikhil-Bhandarkar.png"
+                          alt="mentor profile image"
+                          class="mentor-profile-image me-3"
+                        />
+                        <div class="mentor-info d-flex flex-column">
+                          <h5 class="text--primary fw-semibold mb-1">
+                            Nikhil Bhandarkar
+                          </h5>
+                          <p class="mb-1">MD, Ubiquity Capital</p>
+                          <div
+                            class="background-image-contain-left mentor-company-logo"
+                            id="mentor-logo-18"
+                          ></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="marquee-angel-area">
+                  <!-- <div class=""> -->
+                  <h5 class="fw-semibold marquee-angel-caption">
+                    Other Marquee Angels From
+                  </h5>
+                  <!-- </div> -->
+                  <div class="marquee-angel-logo-list">
+                    <div
+                      class="background-image-contain marquee-angel-logo"
+                      id="mentor-logo-10"
+                    ></div>
+                    <div
+                      class="background-image-contain marquee-angel-logo"
+                      id="mentor-logo-11"
+                    ></div>
+                    <div
+                      class="background-image-contain marquee-angel-logo"
+                      id="mentor-logo-12"
+                    ></div>
+                    <div
+                      class="background-image-contain marquee-angel-logo"
+                      id="mentor-logo-13"
+                    ></div>
+                    <div
+                      class="background-image-contain marquee-angel-logo"
+                      id="mentor-logo-14"
+                    ></div>
+                    <div
+                      class="background-image-contain marquee-angel-logo"
+                      id="mentor-logo-15"
+                    ></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+
+      <section class="w-100 bg--primary">
+        <footer class="footer-content">
+          <div class="footer-content-item">
+            <a href="index.html">
+              <svg
+                id="Layer_2"
+                class="logo mr-4"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 446.2306 132.4144"
+              >
+                <defs>
+                  <style>
+                    .cls-5,
+                    .cls-6 {
+                      stroke-width: 0px;
+                      fill: #fff;
+                    }
+                  </style>
+                </defs>
+                <g id="Layer_1-2">
+                  <polygon
+                    class="cls-6"
+                    points="57.3364 0 0 33.1036 0 99.3108 12.2073 106.3592 12.2073 40.152 57.3364 14.0968 102.4654 40.152 102.4654 92.2624 57.3364 118.3176 33.57 104.5963 33.57 52.4859 57.3364 38.7647 81.1027 52.4859 81.1027 79.9285 57.4138 93.605 54.9328 92.0985 54.9328 64.8199 69.6986 56.2947 57.3364 49.3365 42.7255 57.7715 42.7255 98.9681 57.2589 107.7912 93.31 86.9769 93.31 45.4375 57.3364 24.6679 21.3627 45.4375 21.3627 111.6447 57.3364 132.4144 114.6727 99.3108 114.6727 33.1036 57.3364 0"
+                  />
+                  <path
+                    class="cls-5"
+                    d="m173.7213,32.8414c9.2427,0,17.0776,3.1084,23.5029,9.3252s9.6382,13.7974,9.6382,22.7427c0,8.9155-3.2129,16.481-9.6382,22.6978s-14.2603,9.3252-23.5029,9.3252c-9.2134,0-17.0176-3.1084-23.4131-9.3252-6.396-6.2168-9.5938-13.7822-9.5938-22.6978,0-8.9453,3.1978-16.5259,9.5938-22.7427,6.3955-6.2168,14.1997-9.3252,23.4131-9.3252Zm.1792,59.6182c7.7822,0,14.3491-2.6611,19.7012-7.9834,5.3516-5.3223,8.0283-11.8442,8.0283-19.5669,0-7.7524-2.6768-14.29-8.0283-19.6123-5.3521-5.3223-11.9189-7.9834-19.7012-7.9834-7.8125,0-14.4238,2.6611-19.8354,7.9834-5.4121,5.3223-8.1177,11.8599-8.1177,19.6123,0,7.7227,2.7056,14.2446,8.1177,19.5669,5.4116,5.3223,12.0229,7.9834,19.8354,7.9834Z"
+                  />
+                  <path
+                    class="cls-5"
+                    d="m221.3536,54.98v7.2456h.1787c3.3389-5.3672,7.7075-8.0508,13.1045-8.0508,6.291,0,10.7188,3.2949,13.2832,9.8843,3.876-6.5894,8.6465-9.8843,14.312-9.8843,4.2637,0,7.7075,1.521,10.3315,4.562,2.6235,3.0415,3.9355,7.082,3.9355,12.1206v25.2695h-4.3828v-23.3462c0-4.4429-.9395-7.939-2.8179-10.4883s-4.5171-3.8237-7.916-3.8237c-2.5347,0-4.7407.7603-6.6191,2.2808-1.8789,1.5205-3.8174,3.9658-5.8145,7.335v28.0425h-4.4277v-23.436c0-4.5615-.9771-8.0728-2.9297-10.5327-1.9531-2.4595-4.5693-3.6895-7.8491-3.6895-4.771,0-8.9004,2.937-12.3887,8.8105v28.8477h-4.3833v-41.147h4.3833Z"
+                  />
+                  <path
+                    class="cls-5"
+                    d="m292.1529,54.98v7.1562h.1792c3.4282-5.3071,7.9453-7.9614,13.5513-7.9614,4.6514,0,8.3638,1.4917,11.1367,4.4727,2.7729,2.9819,4.1592,7.1113,4.1592,12.3887v25.0908h-4.3828v-23.436c0-9.4814-3.7275-14.2222-11.1812-14.2222-5.4565,0-9.9443,2.937-13.4624,8.8105v28.8477h-4.3828v-41.147h4.3828Z"
+                  />
+                  <path
+                    class="cls-5"
+                    d="m337.817,33.6465v7.5137h-4.4277v-7.5137h4.4277Zm0,21.3335v41.147h-4.4277v-41.147h4.4277Z"
+                  />
+                  <path
+                    class="cls-5"
+                    d="m383.3473,54.98l-17.7168,41.9521h-2.6421l-18.7754-41.9521h4.4565l15.5132,34.6616,14.8809-34.6616h4.2837Z"
+                  />
+                  <path
+                    class="cls-5"
+                    d="m394.1256,33.6465v7.5137h-4.4277v-7.5137h4.4277Zm0,21.3335v41.147h-4.4277v-41.147h4.4277Z"
+                  />
+                  <path
+                    class="cls-5"
+                    d="m425.3439,54.1749c5.9634,0,10.9351,2.043,14.916,6.1274,3.9805,4.0854,5.9707,9.1841,5.9707,15.2959,0,6.0825-1.9902,11.1592-5.9707,15.229-3.981,4.0698-8.9526,6.105-14.916,6.105s-10.9507-2.0352-14.9604-6.105c-4.0107-4.0698-6.0156-9.1465-6.0156-15.229,0-6.1118,2.0049-11.2104,6.0156-15.2959,4.0098-4.0845,8.9966-6.1274,14.9604-6.1274Zm0,38.4634c4.6216,0,8.4824-1.6167,11.584-4.8525,3.1006-3.2349,4.6514-7.2969,4.6514-12.1875,0-4.8594-1.5586-8.9297-4.6738-12.21-3.1162-3.2793-6.9702-4.9194-11.5615-4.9194-4.6514,0-8.5356,1.6255-11.6509,4.875-3.1162,3.25-4.6738,7.335-4.6738,12.2544,0,4.8906,1.5576,8.9526,4.6738,12.1875,3.1152,3.2358,6.9995,4.8525,11.6509,4.8525Z"
+                  />
+                </g>
+              </svg>
+            </a>
+          </div>
+          <div class="footer-content-item">
+            <h5 class="fw-regular text-white mb-3">Quick Links</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <a href="index.html" class="nav-link p-0 text-white">Home</a>
+              </li>
+              <li class="nav-item mb-2">
+                <a href="about-us.html" class="nav-link p-0 text-white"
+                  >About Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="product.html" class="nav-link p-0 text-white"
+                  >Product</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contact-us.html" class="nav-link p-0 text-white"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <a href="contact-for-demo.html" class="nav-link p-0 text-white"
+                  >Request a Demo</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer-content-item">
+            <h5 class="fw-regular text-white mb-3">
+              Omnivio Retail Technologies Pvt. Ltd.
+            </h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2">
+                <span class="me-2"
+                  ><svg
+                    style="fill: #fff; height: 1.2rem; width: auto"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 384 512"
+                  >
+                    <path
+                      d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-white"
+                  >Floor 16, C-001/A2, Sector 16B, Noida, Uttar Pradesh -
+                  201301</span
+                >
+              </li>
+              <li class="nav-item mb-2">
+                <span class="me-2">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="fill: #fff; height: 1rem; width: auto"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M164.9 24.6c-7.7-18.6-28-28.5-47.4-23.2l-88 24C12.1 30.2 0 46 0 64C0 311.4 200.6 512 448 512c18 0 33.8-12.1 38.6-29.5l24-88c5.3-19.4-4.6-39.7-23.2-47.4l-96-40c-16.3-6.8-35.2-2.1-46.3 11.6L304.7 368C234.3 334.7 177.3 277.7 144 207.3L193.3 167c13.7-11.2 18.4-30 11.6-46.3l-40-96z"
+                    />
+                  </svg>
+                </span>
+                <span class="text-white">+91-9319990986</span>
+              </li>
+              <li class="nav-item mb-2">
+                <span class="me-2"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="fill: #fff; height: 1rem; width: auto"
+                    viewBox="0 0 512 512"
+                  >
+                    <path
+                      d="M48 64C21.5 64 0 85.5 0 112c0 15.1 7.1 29.3 19.2 38.4L236.8 313.6c11.4 8.5 27 8.5 38.4 0L492.8 150.4c12.1-9.1 19.2-23.3 19.2-38.4c0-26.5-21.5-48-48-48H48zM0 176V384c0 35.3 28.7 64 64 64H448c35.3 0 64-28.7 64-64V176L294.4 339.2c-22.8 17.1-54 17.1-76.8 0L0 176z"
+                    /></svg></span
+                ><span class="text-white">contact@omnivio.io</span>
+              </li>
+              <li class="nav-item mb-2">
+                <span class="text-white me-2">Follow Us On</span>
+                <span
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    style="fill: #fff; height: 1.2rem; width: auto"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                    />
+                  </svg>
+                </span>
+              </li>
+            </ul>
+          </div>
+        </footer>
+        <p class="text-center text-white mb-0 p-4 border-top border-white">
+          Copyright © 2021-2023 Omnivio Retail Pvt. Ltd. | All Rights Reserved
+        </p>
+      </section>
+    </div>
+    <script src="slider.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
