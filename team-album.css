@@ -228,7 +228,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-45%) scale(0.7);
+    transform: translatex(-30%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -236,7 +236,7 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(45%) scale(0.7);
+    transform: translatex(30%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -290,7 +290,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-45%) scale(0.7);
+    transform: translatex(-30%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -298,7 +298,7 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(45%) scale(0.7);
+    transform: translatex(30%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -316,10 +316,10 @@ img {
   }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1370px) {
   .card {
     position: absolute !important;
-    width: 60%;
+    width: 64%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -352,7 +352,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-50%) scale(0.7);
+    transform: translatex(-36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -360,7 +360,7 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(50%) scale(0.7);
+    transform: translatex(36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -381,7 +381,7 @@ img {
 @media (max-width: 1200px) {
   .card {
     position: absolute !important;
-    width: 60%;
+    width: 68%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -414,7 +414,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-50%) scale(0.7);
+    transform: translatex(-36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -422,7 +422,7 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(50%) scale(0.7);
+    transform: translatex(36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -443,7 +443,7 @@ img {
 @media (max-width: 1024px) {
   .card {
     position: absolute !important;
-    width: 60%;
+    width: 65%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -476,7 +476,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-50%) scale(0.7);
+    transform: translatex(-36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -484,7 +484,7 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(50%) scale(0.7);
+    transform: translatex(36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -505,7 +505,7 @@ img {
 @media (max-width: 900px) {
   .card {
     position: absolute !important;
-    width: 60%;
+    width: 70%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -525,6 +525,7 @@ img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 1rem auto 0;
   }
 
   .cards {
@@ -537,7 +538,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-50%) scale(0.7);
+    transform: translatex(-36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -545,7 +546,7 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(50%) scale(0.7);
+    transform: translatex(36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -566,7 +567,7 @@ img {
 @media (max-width: 800px) {
   .card {
     position: absolute !important;
-    width: 50%;
+    width: 70%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -579,13 +580,13 @@ img {
   .team-album-container {
     width: 100%;
     max-width: 100%;
-    max-height: 40rem;
-    height: 30rem;
+    height: 28rem;
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 1rem auto 0;
   }
 
   .cards {
@@ -594,12 +595,40 @@ img {
     height: 24rem;
     margin-bottom: 1rem;
   }
+
+  #item-1:checked ~ .cards #team-pic-3,
+  #item-2:checked ~ .cards #team-pic-1,
+  #item-3:checked ~ .cards #team-pic-2 {
+    transform: translatex(-36%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-2,
+  #item-2:checked ~ .cards #team-pic-3,
+  #item-3:checked ~ .cards #team-pic-1 {
+    transform: translatex(36%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-1,
+  #item-2:checked ~ .cards #team-pic-2,
+  #item-3:checked ~ .cards #team-pic-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+    img {
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.5);
+    }
+  }
 }
 
 @media (max-width: 700px) {
   .card {
     position: absolute !important;
-    width: 58%;
+    width: 70%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -619,6 +648,7 @@ img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 1.5rem auto 1rem;
   }
 
   .cards {
@@ -631,7 +661,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-50%) scale(0.7);
+    transform: translatex(-36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -639,7 +669,69 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(50%) scale(0.7);
+    transform: translatex(36%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-1,
+  #item-2:checked ~ .cards #team-pic-2,
+  #item-3:checked ~ .cards #team-pic-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+    img {
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.5);
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .card {
+    position: absolute !important;
+    width: 70%;
+    height: 100% !important;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    border: none !important;
+  }
+
+  .team-album-container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 36rem;
+    height: 22rem;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem auto 1rem;
+  }
+
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+
+  #item-1:checked ~ .cards #team-pic-3,
+  #item-2:checked ~ .cards #team-pic-1,
+  #item-3:checked ~ .cards #team-pic-2 {
+    transform: translatex(-36%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-2,
+  #item-2:checked ~ .cards #team-pic-3,
+  #item-3:checked ~ .cards #team-pic-1 {
+    transform: translatex(36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -660,7 +752,69 @@ img {
 @media (max-width: 600px) {
   .card {
     position: absolute !important;
-    width: 64%;
+    width: 70%;
+    height: 100% !important;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    border: none !important;
+  }
+
+  .team-album-container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 36rem;
+    height: 22rem;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.5rem auto 1rem;
+  }
+
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    margin-bottom: 1rem;
+  }
+
+  #item-1:checked ~ .cards #team-pic-3,
+  #item-2:checked ~ .cards #team-pic-1,
+  #item-3:checked ~ .cards #team-pic-2 {
+    transform: translatex(-36%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-2,
+  #item-2:checked ~ .cards #team-pic-3,
+  #item-3:checked ~ .cards #team-pic-1 {
+    transform: translatex(36%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-1,
+  #item-2:checked ~ .cards #team-pic-2,
+  #item-3:checked ~ .cards #team-pic-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+    img {
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.5);
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .card {
+    position: absolute !important;
+    width: 70%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -674,12 +828,13 @@ img {
     width: 100%;
     max-width: 100%;
     max-height: 40rem;
-    height: 24rem;
+    height: 22rem;
     transform-style: preserve-3d;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 1.5rem auto 1rem;
   }
 
   .cards {
@@ -692,7 +847,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-45%) scale(0.7);
+    transform: translatex(-36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -700,7 +855,7 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(45%) scale(0.7);
+    transform: translatex(36%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -721,7 +876,7 @@ img {
 @media (max-width: 500px) {
   .card {
     position: absolute !important;
-    width: 64%;
+    width: 68%;
     height: 100% !important;
     left: 0;
     right: 0;
@@ -741,6 +896,7 @@ img {
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin: 1.5rem auto 1rem;
   }
 
   .cards {
@@ -753,7 +909,7 @@ img {
   #item-1:checked ~ .cards #team-pic-3,
   #item-2:checked ~ .cards #team-pic-1,
   #item-3:checked ~ .cards #team-pic-2 {
-    transform: translatex(-45%) scale(0.7);
+    transform: translatex(-38%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
@@ -761,7 +917,69 @@ img {
   #item-1:checked ~ .cards #team-pic-2,
   #item-2:checked ~ .cards #team-pic-3,
   #item-3:checked ~ .cards #team-pic-1 {
-    transform: translatex(45%) scale(0.7);
+    transform: translatex(38%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-1,
+  #item-2:checked ~ .cards #team-pic-2,
+  #item-3:checked ~ .cards #team-pic-3 {
+    transform: translatex(0) scale(1);
+    opacity: 1;
+    z-index: 1;
+
+    img {
+      box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.5);
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .card {
+    position: absolute !important;
+    width: 72%;
+    height: 100% !important;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transition: transform 0.4s ease;
+    cursor: pointer;
+    border: none !important;
+  }
+
+  .team-album-container {
+    width: 100%;
+    max-width: 100%;
+    max-height: 40rem;
+    height: 20rem;
+    transform-style: preserve-3d;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem auto 1rem;
+  }
+
+  .cards {
+    position: relative;
+    width: 100%;
+    height: 18rem;
+    margin-bottom: 1rem;
+  }
+
+  #item-1:checked ~ .cards #team-pic-3,
+  #item-2:checked ~ .cards #team-pic-1,
+  #item-3:checked ~ .cards #team-pic-2 {
+    transform: translatex(-35%) scale(0.7);
+    opacity: 1;
+    z-index: 0;
+  }
+
+  #item-1:checked ~ .cards #team-pic-2,
+  #item-2:checked ~ .cards #team-pic-3,
+  #item-3:checked ~ .cards #team-pic-1 {
+    transform: translatex(35%) scale(0.7);
     opacity: 1;
     z-index: 0;
   }
