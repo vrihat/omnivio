@@ -18,7 +18,7 @@ body {
   font-family: "Lato", sans-serif !important;
   margin: 0 !important;
   padding: 0 !important;
-  background: var(--light-grey) !important;
+  /* background: var(--light-grey) !important; */
   /* max-width: 1366px !important; */
 }
 
@@ -304,7 +304,7 @@ a.nav-link.active {
 }
 
 .page-container {
-  max-width: 1200px !important;
+  max-width: 1366px !important;
   margin: auto !important;
   background: #ffffff;
 }

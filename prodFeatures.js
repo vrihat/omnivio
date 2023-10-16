@@ -1,7 +1,7 @@
 var featureList = [
-  "Real time Alerts",
-  "Unified Business-Ops",
-  "Delivered Growth",
+  "Real Time Alerts",
+  "Biz-Ops Monitoring",
+  "Actionable Insights",
 ]
 var count = 0
 
