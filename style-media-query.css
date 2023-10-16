@@ -694,11 +694,10 @@
   }
 
   .hero-headline {
-    font-size: 3rem;
-    line-height: 3.5rem;
+    font-size: 2.8rem;
+    line-height: 3rem;
     font-weight: 600;
   }
-
   .hero-section {
     height: 100%;
     display: flex;
@@ -1158,7 +1157,7 @@
   }
 
   .hero-headline {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
     line-height: 2.8rem;
     font-weight: 600;
   }
@@ -1519,8 +1518,8 @@
     rotate: 0deg;
     text-align: center;
     position: absolute;
-    right: 5%;
-    bottom: 11rem;
+    right: 15%;
+    bottom: 6rem;
   }
 
   .marquee-angel-logo {
@@ -1739,7 +1738,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 90%;
+    width: 98%;
     margin: 1rem auto;
     position: relative;
   }
@@ -1749,12 +1748,12 @@
     text-align: center;
     position: absolute;
     left: 10%;
-    bottom: 9rem;
+    bottom: 5rem;
   }
 
   .marquee-angel-logo {
-    width: 5.5rem;
-    height: 5.5rem;
+    width: 5rem;
+    height: 5rem;
     background-position: center !important;
   }
 
@@ -1975,8 +1974,8 @@
   }
 
   .hero-headline {
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
     font-weight: 600;
   }
 
@@ -2000,7 +1999,7 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 90%;
+    width: 100%;
     margin: 3rem auto 2rem;
     position: relative;
   }
@@ -2013,14 +2012,13 @@
     position: absolute;
     width: fit-content;
     left: 18%;
-    bottom: 8rem;
+    bottom: 3.5rem;
   }
 
   .marquee-angel-logo {
-    width: 5rem;
-    height: 5rem;
+    width: 4.4rem;
+    height: 4.4rem;
     background-position: center !important;
-    margin: 0.5rem;
   }
 
   .marquee-angel-logo-list {
@@ -2028,7 +2026,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
     margin: 1rem auto auto;
   }
 
@@ -2046,15 +2044,6 @@
     margin: 2rem auto 1rem;
   }
 
-  /* .mentor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    grid-column-gap: 6px;
-    grid-row-gap: 6px;
-    margin: 0 auto;
-    padding: 0;
-  } */
-
   .mentor-grid {
     display: block;
     padding: 0 !important;
@@ -2070,13 +2059,13 @@
   }
 
   .mentor-info h5 {
-    font-size: 1.4rem;
-    line-height: 1.7rem;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
   }
 
   .mentor-info p {
     font-size: 1.1rem;
-    line-height: 1.4rem;
+    line-height: 1.3rem;
   }
 
   .mentor-intro-container {
@@ -2185,7 +2174,7 @@
   }
 
   .about-us-hero-headline {
-    padding-top: 2.5rem;
+    padding-top: 2.2rem;
   }
 
   .carousel-container {
@@ -2265,8 +2254,8 @@
   }
 
   .hero-headline {
-    font-size: 1.6rem;
-    line-height: 2rem;
+    font-size: 1.9rem;
+    line-height: 2.1rem;
     font-weight: 600;
   }
 
@@ -2301,7 +2290,7 @@
     position: absolute;
     width: fit-content;
     left: 18%;
-    bottom: 7rem;
+    bottom: 3rem;
   }
 
   .marquee-angel-logo {
@@ -2339,17 +2328,17 @@
   }
 
   .mentor-info {
-    margin: 0.5rem 0 !important;
+    margin: 1rem 0 !important;
   }
 
   .mentor-info h5 {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.3rem;
+    line-height: 1rem;
   }
 
   .mentor-info p {
-    font-size: 1.1rem;
-    line-height: 1.4rem;
+    font-size: 1rem;
+    line-height: 1.2rem;
   }
 
   .mentor-intro-container {
@@ -2654,8 +2643,8 @@
   }
 
   .hero-headline {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+    font-size: 1.8rem;
+    line-height: 2rem;
     font-weight: 600;
   }
 
@@ -2724,8 +2713,8 @@
     text-align: center;
     position: absolute;
     width: fit-content;
-    left: 25%;
-    bottom: 13rem;
+    left: 14%;
+    bottom: 8rem;
   }
 
   .marquee-angel-logo {
@@ -2749,6 +2738,20 @@
   .mentor-grid {
     display: block;
     padding: 0 !important;
+  }
+
+  .mentor-info {
+    margin: 1rem 0;
+  }
+
+  .mentor-info h5 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .mentor-info p {
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .mentor-profile {
@@ -3220,7 +3223,7 @@
     position: absolute;
     width: fit-content;
     left: 10%;
-    bottom: 12rem;
+    bottom: 8rem;
   }
 
   .marquee-angel-logo {
@@ -3244,6 +3247,20 @@
   .mentor-grid {
     display: block;
     padding: 0 !important;
+  }
+
+  .mentor-info {
+    margin: 1rem 0;
+  }
+
+  .mentor-info h5 {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+
+  .mentor-info p {
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .mentor-profile {
@@ -3709,7 +3726,7 @@
     position: absolute;
     width: fit-content;
     left: 10%;
-    bottom: 11rem;
+    bottom: 7rem;
   }
 
   .marquee-angel-logo {
@@ -3757,38 +3774,6 @@
     height: 43rem;
   }
 
-  /* .mentor-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-column-gap: 6px;
-    grid-row-gap: 6px;
-    margin: 0 auto;
-  }
-
-  .mentor-profile {
-    margin: 0 0 0.8rem;
-  }
-
-  .mentor-intro-container {
-    margin: 0.3rem 0.3rem 0;
-  }
-
-  .mentor-logo-container {
-    margin: 0.3rem 0.3rem 0;
-  }
-
-  .mentor-main-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile {
-    margin: 0 0 1rem;
-  } */
-
   .mentor-area {
     padding: 0;
   }
@@ -3813,16 +3798,16 @@
   }
 
   .mentor-info {
-    margin: 0.2rem 0 !important;
+    margin: 1rem 0;
   }
 
   .mentor-info h5 {
-    font-size: 1.2rem;
-    line-height: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
   }
 
   .mentor-info p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     line-height: 1.2rem;
   }
 
@@ -4022,7 +4007,7 @@
   }
 
   .about-us-hero-headline {
-    padding-top: 1.4rem;
+    padding-top: 3%;
   }
 
   .carousel-container {
@@ -4182,8 +4167,8 @@
 
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-column-gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    grid-column-gap: 4px;
     grid-row-gap: 6px;
     width: 100%;
     padding: 1.5rem 1.5rem 0;
@@ -4288,7 +4273,7 @@
     position: absolute;
     width: fit-content;
     left: 10%;
-    bottom: 12rem;
+    bottom: 8rem;
   }
 
   .marquee-angel-logo {
@@ -4363,16 +4348,16 @@
   }
 
   .mentor-info {
-    margin: 0 !important;
+    margin: 1rem 0;
   }
 
   .mentor-info h5 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.2rem;
   }
 
   .mentor-info p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.2rem;
   }
 
