@@ -1,4 +1,8 @@
-@media screen and (min-width: 1200.1px) {
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+@media screen and (min-width: 1300.1px) {
   .about-us-hero-image {
     height: 38rem;
     margin-top: -4%;
@@ -9,8 +13,8 @@
   }
 
   .about-hero-headline {
-    font-size: 2.9rem;
-    line-height: 3.3rem;
+    font-size: 2.5rem;
+    line-height: 3.1rem;
     font-weight: 700;
   }
 
@@ -47,6 +51,15 @@
   .carousel-inner {
     overflow: hidden !important;
     padding: 2rem;
+    height: 19rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
   }
 
   .client-area {
@@ -171,8 +184,10 @@
   }
 
   #embedded-contact-form {
-    width: 80%;
+    width: 70%;
     height: 40rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1.5rem;
   }
 
   .footer-content {
@@ -340,12 +355,12 @@
   }
 
   .media-logo {
-    height: 5rem !important;
+    height: 4rem !important;
     width: auto !important;
   }
 
   .mediaSlide {
-    height: 18rem;
+    height: 19rem;
   }
 
   .mentor-area {
@@ -435,7 +450,12 @@
 
   .product-feature-card {
     width: 30%;
-    height: 28rem;
+    height: 27rem;
+  }
+
+  .product-feature-card-caption {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
   }
 
   #product-feature-1 {
@@ -469,6 +489,589 @@
     font-size: 3rem;
     line-height: 3.5rem;
     font-weight: 600;
+    width: 80%;
+  }
+
+  .product-info-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-info-area-straight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-info-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-info-body-copy {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+  }
+
+  .product-info {
+  }
+
+  .product-visual {
+    width: 35%;
+    height: auto;
+  }
+
+  .profile-founder {
+    width: 40%;
+  }
+
+  .profile-image-founder {
+    height: 36rem;
+    width: 100%;
+  }
+
+  .profile-investor {
+    width: 40%;
+    height: 20rem;
+    margin-bottom: 0;
+  }
+
+  .team-picture {
+    width: 35%;
+    height: 100%;
+  }
+
+  .testimonial-content {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .testimonial-quote-icon {
+    width: 8%;
+    margin-right: 1rem;
+  }
+
+  .testimonial-text {
+    width: 85%;
+  }
+
+  .testimonial-text-home {
+    width: 75%;
+  }
+
+  .w-md-45 {
+    width: 45%;
+  }
+
+  .w-md-85 {
+    width: 85%;
+  }
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+@media screen and (max-width: 1300px) {
+  .about-us-hero-image {
+    height: 34rem;
+    margin-top: -4%;
+  }
+
+  #about-us-hero-image {
+    background-image: url("Assets/images/about-us-hero-crop.png");
+  }
+
+  .about-hero-headline {
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+    font-weight: 700;
+  }
+
+  .about-us-hero-headline {
+    padding-top: 8%;
+  }
+
+  .carousel-container {
+    padding: 3rem 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .carousel-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 4% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 3rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 19rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
+  }
+
+  .client-area {
+    padding: 3rem 3rem 2rem;
+  }
+
+  .client-icon {
+    width: 8rem;
+    height: 8rem;
+  }
+
+  .client-logo {
+    width: 7rem !important;
+    height: auto !important;
+  }
+
+  .client-testimonial {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .client-testimonial-left {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+    align-items: center;
+  }
+
+  .contact-image {
+    width: 35%;
+    height: auto;
+  }
+
+  .contact-form {
+    width: 40%;
+    height: 100%;
+  }
+
+  .contact-area {
+    margin: 3rem auto 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .cta-button {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    border: none;
+    outline: none;
+    color: var(--white);
+  }
+
+  .cta-button:hover {
+    opacity: 0.85;
+    transition: 200ms;
+    outline: none;
+  }
+
+  .cta-button-white {
+    background-color: var(--white);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    border: none;
+    outline: none;
+    color: var(--indigo);
+  }
+
+  .cta-button-white:hover {
+    opacity: 0.85;
+    transition: 200ms;
+    outline: none;
+  }
+
+  .demo-cta-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .demo-cta-content {
+    width: 40%;
+  }
+
+  .demo-cta-image {
+    margin: 0;
+    width: 55%;
+    height: 24rem;
+  }
+
+  .demo-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .demo-input-box {
+    width: 32%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0.5rem auto;
+  }
+
+  #embedded-contact-form {
+    width: 70%;
+    height: 40rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1.5rem;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    grid-column-gap: 8px;
+    grid-row-gap: 6px;
+    padding: 1.5rem 1.5rem 0;
+    width: 100%;
+  }
+
+  .footer-content-item {
+    margin-bottom: 2rem;
+  }
+
+  .footer-content-link {
+    font-size: 0.8rem !important;
+    line-height: 1.6rem !important;
+  }
+
+  .h-screen {
+    height: calc(100vh - 119.5px) !important;
+  }
+
+  .headline {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0.6rem 0;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    margin: 0.6rem 0 0.9rem;
+  }
+
+  .hero-headline {
+    font-size: 2.3rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+  }
+
+  .hero-section {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+  }
+
+  .hero-section-height {
+    height: calc(100vh - 63.5px);
+  }
+
+  .hero-section-text {
+    width: 45%;
+  }
+
+  .hero-section-video {
+    width: 50%;
+  }
+
+  .home-product-section {
+    padding: 3rem 1rem 2rem;
+  }
+
+  .investor-quote {
+    margin-bottom: 1.4rem;
+  }
+
+  .investor-speak {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  .life-at-omnivio-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+
+  .life-at-omnivio-body-copy {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+    margin-bottom: 5rem;
+  }
+
+  .life-at-omnivio-content {
+    width: 40%;
+  }
+
+  .life-at-omnivio-content h5 {
+    line-height: 1.8rem;
+  }
+
+  .life-at-omnivio-image {
+    width: 58%;
+  }
+
+  .life-at-omnivio-image h5 {
+    line-height: 1.8rem;
+  }
+
+  .logo {
+    width: 10rem;
+    height: auto;
+  }
+
+  .marquee-angel-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 5rem;
+    position: relative;
+  }
+
+  .marquee-angel-caption {
+    rotate: 270deg;
+    bottom: 48%;
+    height: 4rem;
+    width: 30rem;
+    right: -9rem;
+    text-align: center;
+    position: absolute;
+  }
+
+  .marquee-angel-logo-list {
+    width: 6rem !important;
+  }
+
+  .marquee-angel-logo {
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .media-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .media-content-link {
+    text-decoration: none;
+    color: var(--dark-grey);
+  }
+
+  .media-content-link:hover {
+    text-decoration: none;
+    color: var(--dark-grey);
+  }
+
+  .media-logo {
+    height: 4rem !important;
+    width: auto !important;
+  }
+
+  .mediaSlide {
+    height: 19rem;
+  }
+
+  .mentor-area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .mentor-company-logo {
+    height: 2rem;
+    width: auto;
+  }
+
+  .mentor-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-column-gap: 6px;
+    grid-row-gap: 6px;
+  }
+
+  .mentor-group {
+    width: 100%;
+    /* width: 87%; */
+  }
+
+  .mentor-info {
+    margin: 0.8rem 0;
+  }
+
+  .mentor-info h5 {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+
+  .mentor-info p {
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+  }
+
+  .mentor-logo-container {
+    width: 20%;
+    height: 4rem;
+    margin: 2rem 0.5rem;
+  }
+
+  .mentor-intro-content {
+    width: 75% !important;
+    margin: 0.8rem auto;
+    padding: 1rem 2rem;
+  }
+
+  .mentor-main-container {
+    padding: 1rem;
+  }
+
+  .mentor-profile {
+    margin: 0 0 1rem;
+  }
+
+  .mentor-profile-companies {
+    height: 2rem;
+    width: auto !important;
+  }
+
+  .mentor-profile-image {
+    height: 8rem;
+    width: auto;
+  }
+
+  .mentor-section {
+    padding: 1rem;
+  }
+
+  .product-description-section {
+    padding: 0 3rem;
+  }
+
+  .product-feature-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem 1rem;
+  }
+
+  .product-feature-card {
+    width: 30%;
+    height: 26rem;
+  }
+
+  .product-feature-card-caption {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+  }
+
+  #product-feature-1 {
+    flex-direction: row;
+  }
+  #product-feature-2 {
+    flex-direction: row-reverse;
+  }
+  #product-feature-3 {
+    flex-direction: row;
+  }
+
+  .product-feature-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 3rem;
+  }
+
+  .product-feature-content {
+    width: 50%;
+  }
+
+  .product-feature-image {
+    width: 30%;
+  }
+
+  .product-hero-headline {
+    font-size: 2.7rem;
+    line-height: 3.4rem;
+    font-weight: 600;
+    width: 80%;
   }
 
   .product-info-area {
@@ -562,21 +1165,32 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 1200px) {
   .about-us-hero-image {
-    height: 33rem;
+    height: 34rem;
+    margin-top: -4%;
   }
 
   #about-us-hero-image {
     background-image: url("Assets/images/about-us-hero-crop.png");
   }
 
+  .about-hero-headline {
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+    font-weight: 700;
+  }
+
   .about-us-hero-headline {
-    padding-top: 2.5rem;
+    padding-top: 7%;
   }
 
   .carousel-container {
-    padding: 1rem 1.4rem;
+    padding: 2.5rem 1.5rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -597,8 +1211,22 @@
     width: 4% !important;
   }
 
+  .carousel-indicators {
+    margin-bottom: 3rem !important;
+  }
+
   .carousel-inner {
-    overflow: visible !important;
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 20rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
   }
 
   .client-icon {
@@ -607,7 +1235,7 @@
   }
 
   .client-logo {
-    width: 10rem !important;
+    width: 7rem !important;
     height: auto !important;
   }
 
@@ -718,6 +1346,13 @@
     margin: 0.5rem auto;
   }
 
+  #embedded-contact-form {
+    width: 84%;
+    height: 42rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1.5rem;
+  }
+
   .footer-content {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
@@ -740,11 +1375,26 @@
     height: calc(100vh - 119.5px) !important;
   }
 
-  .hero-headline {
-    font-size: 2.8rem;
-    line-height: 3rem;
+  .headline {
+    font-size: 1.7rem;
+    line-height: 2rem;
     font-weight: 600;
+    margin: 0.6rem 0;
   }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    margin: 0.6rem 0 0.9rem;
+  }
+
+  .hero-headline {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    font-weight: 700;
+  }
+
   .hero-section {
     height: 100%;
     display: flex;
@@ -752,25 +1402,19 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
-  }
-
-  .hero-section-height {
-    height: calc(100vh - 63.5px);
+    padding: 2.5rem;
   }
 
   .hero-section-text {
-    width: 42%;
+    width: 45%;
   }
 
   .hero-section-video {
-    width: 56%;
+    width: 50%;
   }
 
-  .headline {
-    font-size: 2.5rem;
-    line-height: 2.9rem;
-    font-weight: 600;
-    margin: 1rem 0;
+  .home-product-section {
+    padding: 3rem 1rem 1rem;
   }
 
   .investor-quote {
@@ -827,7 +1471,7 @@
 
   .marquee-angel-caption {
     rotate: 270deg;
-    bottom: 15rem;
+    bottom: 45%;
     height: 4rem;
     width: 30rem;
     right: -9rem;
@@ -868,7 +1512,7 @@
   }
 
   .mediaSlide {
-    height: 18rem;
+    height: 20rem;
   }
 
   .mentor-area {
@@ -886,13 +1530,12 @@
   .mentor-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-column-gap: 6px;
-    grid-row-gap: 6px;
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
   }
 
   .mentor-group {
     width: 100%;
-    /* width: 87%; */
   }
 
   .mentor-info {
@@ -911,8 +1554,8 @@
 
   .mentor-logo-container {
     width: 20%;
-    height: 4rem;
-    margin: 2rem 0.5rem;
+    height: 3rem;
+    margin: 1.3rem 0.5rem;
   }
 
   .mentor-intro-content {
@@ -926,7 +1569,7 @@
   }
 
   .mentor-profile {
-    margin: 0 0 1rem;
+    margin: 0 0 0.7rem;
   }
 
   .mentor-profile-companies {
@@ -935,7 +1578,7 @@
   }
 
   .mentor-profile-image {
-    height: 8rem;
+    height: 7rem;
     width: auto;
   }
 
@@ -949,11 +1592,17 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    margin: 3rem 1rem 2rem;
   }
 
   .product-feature-card {
     width: 30%;
-    height: 34rem;
+    height: 26rem;
+  }
+
+  .product-feature-card-caption {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
   }
 
   #product-feature-1 {
@@ -987,6 +1636,7 @@
     font-size: 3rem;
     line-height: 3.5rem;
     font-weight: 600;
+    width: 80%;
   }
 
   .product-info-area {
@@ -1074,25 +1724,32 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 1024px) {
   .about-us-hero-image {
-    height: 28rem;
+    height: 27rem;
+    margin-top: -4%;
   }
 
   #about-us-hero-image {
     background-image: url("Assets/images/about-us-hero-crop.png");
   }
 
-  .about-us-hero-headline {
-    padding-top: 2rem;
+  .about-hero-headline {
+    font-size: 2.4rem;
+    line-height: 3rem;
+    font-weight: 700;
   }
 
-  .about-us-hero-headline h1 {
-    height: 4rem;
+  .about-us-hero-headline {
+    padding-top: 6%;
   }
 
   .carousel-container {
-    padding: 1rem 1.4rem;
+    padding: 2.5rem 1.5rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1102,7 +1759,6 @@
 
   .carousel-content {
     width: 100%;
-    height: 90%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1111,7 +1767,25 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: 6% !important;
+    width: 4% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 3rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 20rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
   }
 
   .client-logo {
@@ -1198,15 +1872,23 @@
   }
 
   .headline {
-    font-size: 2rem;
-    line-height: 2.4rem;
+    font-size: 1.7rem;
+    line-height: 2rem;
     font-weight: 600;
+    margin: 0.6rem 0;
+  }
+
+  .hero-copy {
+    font-size: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+    margin: 0.6rem 0 0.9rem;
   }
 
   .hero-headline {
-    font-size: 2.5rem;
-    line-height: 2.8rem;
-    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+    font-weight: 700;
   }
 
   .hero-section {
@@ -1216,14 +1898,19 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    padding: 2.5rem;
   }
 
   .hero-section-text {
-    width: 42%;
+    width: 45%;
   }
 
   .hero-section-video {
-    width: 56%;
+    width: 50%;
+  }
+
+  .home-product-section {
+    padding: 3rem 1rem 0.8rem;
   }
 
   .life-at-omnivio-area {
@@ -1255,9 +1942,10 @@
   .marquee-angel-area {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
+    align-items: center;
     width: 75%;
-    margin: 3rem auto 2rem;
+    margin: 5rem auto 2rem;
   }
 
   .marquee-angel-caption {
@@ -1266,13 +1954,15 @@
     rotate: 0deg;
     text-align: center;
     position: absolute;
-    right: 32%;
-    bottom: -2rem;
+    right: 13%;
+    bottom: 46%;
+    height: 5rem;
+    width: 30rem;
   }
 
   .marquee-angel-logo {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     background-position: center !important;
   }
 
@@ -1281,7 +1971,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90% !important;
+    width: 72% !important;
   }
 
   .media-logo {
@@ -1301,10 +1991,10 @@
 
   .mentor-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
     grid-column-gap: 6px;
     grid-row-gap: 6px;
-    padding: 1.5rem;
+    padding: 0 1.5rem;
   }
 
   .mentor-group {
@@ -1312,7 +2002,7 @@
   }
 
   .mentor-info {
-    margin: 1.1rem 0;
+    margin: 0.8rem 0;
   }
 
   .mentor-info h5 {
@@ -1341,11 +2031,11 @@
   }
 
   .mentor-profile {
-    margin: 0 0 1rem;
+    margin: 0 0 0.5rem;
   }
 
   .mentor-profile-image {
-    height: 8rem;
+    height: 7rem;
     width: auto;
   }
 
@@ -1353,14 +2043,27 @@
     padding: 1rem;
   }
 
+  #omnivio-product-animation {
+    background-image: url(Assets/videos/omniview-product.gif);
+    height: 20rem;
+    background-position: 50% 60% !important;
+  }
+
   #product-feature-1 {
     flex-direction: row;
   }
+
   #product-feature-2 {
     flex-direction: row-reverse;
   }
+
   #product-feature-3 {
     flex-direction: row;
+  }
+
+  .product-feature-card {
+    width: 31%;
+    height: 25rem;
   }
 
   .product-feature-container {
@@ -1369,47 +2072,97 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    margin: 3rem auto;
+    margin: 0 auto 3rem;
   }
 
   .product-feature-content {
-    width: 62%;
+    width: 50%;
   }
 
   .product-feature-image {
-    width: 34%;
+    width: 30%;
   }
 
   .product-hero-headline {
     font-size: 3rem;
     line-height: 3.5rem;
     font-weight: 600;
+    width: 80%;
   }
+
+  .product-info-area {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-info-area-straight {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-info-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .product-info-body-copy {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+    /* margin-bottom: 5rem; */
+  }
+
+  .product-info {
+  }
+
+  .product-visual {
+    width: 35%;
+    height: auto;
+  }
+
+  /*-----*/
 
   .testimonial-text-home {
     width: 75%;
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 900px) {
   .about-us-hero-image {
-    height: 25rem;
+    height: 24rem;
+    margin-top: -4%;
   }
 
   #about-us-hero-image {
     background-image: url("Assets/images/about-us-hero-crop.png");
   }
 
-  .about-us-hero-headline {
-    padding-top: 1.5rem;
+  .about-hero-headline {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+    font-weight: 700;
   }
 
-  .about-us-hero-headline h1 {
-    height: 4rem;
+  .about-us-hero-headline {
+    padding-top: 5%;
   }
 
   .carousel-container {
-    padding: 1rem 1.4rem;
+    padding: 1rem 1.5rem;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -1419,7 +2172,6 @@
 
   .carousel-content {
     width: 100%;
-    height: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1428,7 +2180,36 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: 6% !important;
+    width: 4% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 3rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 29rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
+  }
+
+  .client-icon {
+    width: 6rem;
+    height: 6rem;
+    margin: 0.5rem auto;
+  }
+
+  .client-logo {
+    width: 5.5rem !important;
+    height: auto !important;
   }
 
   .demo-cta-area {
@@ -1466,9 +2247,17 @@
     margin: 0.5rem auto;
   }
 
+  #embedded-contact-form {
+    width: 90%;
+    height: 42rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
     grid-column-gap: 8px;
     grid-row-gap: 6px;
     padding: 1.5rem 1.5rem 0;
@@ -1480,8 +2269,29 @@
   }
 
   .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
+  }
+
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+  }
+
+  .headline {
+    font-size: 1.7rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+  }
+
+  .hero-copy {
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4rem;
+    font-weight: 500;
+    margin: 1rem 0;
   }
 
   .hero-headline {
@@ -1538,6 +2348,12 @@
     padding: 1rem 2rem;
   }
 
+  .life-at-omnivio-body-copy {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+
   .life-at-omnivio-content {
     width: 95%;
   }
@@ -1554,9 +2370,10 @@
   .marquee-angel-area {
     display: flex;
     flex-direction: column;
-    justify-content: start;
-    width: 85%;
-    margin: 3rem auto 0;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 5rem auto 2rem;
   }
 
   .marquee-angel-caption {
@@ -1565,14 +2382,16 @@
     rotate: 0deg;
     text-align: center;
     position: absolute;
-    right: 15%;
-    bottom: 6rem;
+    right: 7%;
+    bottom: 46%;
+    height: 5rem;
+    width: 30rem;
   }
 
   .marquee-angel-logo {
-    width: 5rem;
-    height: 5rem;
-    background-position: center;
+    width: 4rem;
+    height: 4rem;
+    background-position: center !important;
   }
 
   .marquee-angel-logo-list {
@@ -1580,12 +2399,11 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90% !important;
-    margin: 1rem auto 2rem;
+    width: 80% !important;
   }
 
   .mediaSlide {
-    height: 32rem;
+    height: 29rem;
   }
 
   .mentor-area-container {
@@ -1603,12 +2421,12 @@
   }
 
   .mentor-info {
-    margin: 1rem 0;
+    margin: 0.5rem 0;
   }
 
   .mentor-info h5 {
-    font-size: 1.4rem;
-    line-height: 1.6rem;
+    font-size: 1.2rem;
+    line-height: 1.4rem;
   }
 
   .mentor-info p {
@@ -1616,14 +2434,19 @@
     line-height: 1.2rem;
   }
 
+  .mentor-intro-body-copy {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
   .mentor-intro-content {
-    width: 90% !important;
+    width: 96% !important;
     margin: 0.8rem auto;
-    padding: 1rem 2rem;
+    padding: 1rem;
   }
 
   .mentor-logo-container {
-    margin: 1rem 0 0;
+    margin: 1rem 0;
     background-position: center !important;
   }
 
@@ -1636,7 +2459,7 @@
   }
 
   .mentor-profile-image {
-    height: 8rem;
+    height: 7rem;
     width: auto;
   }
 
@@ -1652,6 +2475,11 @@
   }
   #product-feature-3 {
     flex-direction: row;
+  }
+
+  .product-feature-card {
+    width: 31%;
+    height: 26rem;
   }
 
   .product-feature-container {
@@ -1675,6 +2503,12 @@
     font-size: 2.4rem;
     line-height: 3rem;
     font-weight: 600;
+    width: 80%;
+  }
+
+  .testimonial-quote-icon {
+    width: 8%;
+    margin-bottom: 0.8rem;
   }
 
   .testimonial-text-home {
@@ -1682,41 +2516,63 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 768px) {
   .about-us-hero-image {
-    height: 22rem;
+    height: 19.5rem;
+    margin-top: -4%;
   }
 
   #about-us-hero-image {
     background-image: url("Assets/images/about-us-hero-crop.png");
   }
 
-  .about-us-hero-headline {
-    padding-top: 1rem;
+  .about-hero-headline {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    font-weight: 700;
   }
 
-  .carousel-container {
-    padding: 1rem 1.4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .about-us-hero-headline {
+    padding-top: 4%;
+  }
+
+  .about-us-hero-subhead {
+    text-align: center;
   }
 
   .carousel-content {
     width: 100%;
-    height: 90%;
     display: flex;
     flex-direction: column;
-
     justify-content: space-between;
     align-items: center;
   }
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: 5% !important;
+    width: 4% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 3rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 29.5rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
   }
 
   .demo-form {
@@ -1735,10 +2591,18 @@
     margin: 0.5rem auto;
   }
 
+  #embedded-contact-form {
+    width: 90%;
+    height: 42rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-column-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    grid-column-gap: 8px;
     grid-row-gap: 6px;
     padding: 1.5rem 1.5rem 0;
     width: 100%;
@@ -1749,14 +2613,32 @@
   }
 
   .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
+  }
+
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+  }
+
+  .headline {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
   }
 
   .hero-headline {
     font-size: 2rem;
     line-height: 2.5rem;
     font-weight: 600;
+  }
+
+  .logo {
+    width: 9rem;
+    height: auto;
   }
 
   .life-at-omnivio-area {
@@ -1786,21 +2668,23 @@
     flex-direction: column;
     justify-content: start;
     width: 98%;
-    margin: 1rem auto;
+    margin: 1.5rem auto;
     position: relative;
   }
 
   .marquee-angel-caption {
+    font-size: 1.3rem;
+    line-height: 1.7rem;
     rotate: 0deg;
     text-align: center;
     position: absolute;
     left: 10%;
-    bottom: 5rem;
+    bottom: 31%;
   }
 
   .marquee-angel-logo {
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     background-position: center !important;
   }
 
@@ -1819,7 +2703,7 @@
   }
 
   .mediaSlide {
-    height: 32rem;
+    height: 29.5rem;
   }
 
   .mentor-area-container {
@@ -1835,8 +2719,12 @@
     margin: 0 auto;
   }
 
+  .mentor-group {
+    width: 100%;
+  }
+
   .mentor-info {
-    margin: 1rem 0;
+    margin: 0.8rem 0;
   }
 
   .mentor-info h5 {
@@ -1849,14 +2737,18 @@
     line-height: 1.2rem;
   }
 
+  .mentor-intro-body-copy {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+  }
+
   .mentor-intro-content {
-    width: 90% !important;
-    margin: 0.8rem auto;
-    padding: 1rem 2rem;
+    width: 96% !important;
+    padding: 0.5rem;
   }
 
   .mentor-logo-container {
-    margin: 1rem 0 0;
+    margin: 1rem 0;
     background-position: center !important;
   }
 
@@ -1865,16 +2757,23 @@
   }
 
   .mentor-profile {
-    margin: 0 0 1rem;
+    margin: 0;
   }
 
   .mentor-profile-image {
-    height: 8rem;
+    height: 7rem;
     width: auto;
   }
 
   .mentor-section {
     padding: 1rem;
+  }
+
+  #omnivio-product-animation {
+    background-image: url(Assets/videos/omniview-product.gif);
+    height: 16rem;
+    background-position: 50% 60% !important;
+    margin: 2rem auto 0;
   }
 
   #product-feature-1 {
@@ -1893,7 +2792,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
-    margin: 3rem auto;
+    margin: 3rem auto 0.5rem;
   }
 
   .product-feature-content {
@@ -1906,9 +2805,10 @@
   }
 
   .product-hero-headline {
-    font-size: 2.4rem;
-    line-height: 3rem;
+    font-size: 2.2rem;
+    line-height: 2.8rem;
     font-weight: 600;
+    width: 80%;
   }
 
   .product-feature-area {
@@ -1917,11 +2817,12 @@
     flex-wrap: nowrap;
     justify-content: space-around;
     align-items: center;
+    margin: 2rem auto;
   }
 
   .product-feature-card {
     width: 75%;
-    height: 34rem;
+    height: 30rem;
     margin: 0 auto 2rem;
   }
 
@@ -1930,32 +2831,26 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 650px) {
   .about-us-hero-image {
-    height: 19rem;
+    height: 21rem;
   }
 
   #about-us-hero-image {
-    background-image: url("Assets/images/about-us-hero-crop.png") !important;
-    /* background-position: 0% -200% !important; */
+    background-image: url("Assets/images/about-us-hero-full.png") !important;
+    background-position: 0% -200% !important;
   }
 
   .about-us-hero-headline {
-    padding-top: 1rem;
-  }
-
-  .carousel-container {
-    padding: 1rem 1.4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 7%;
   }
 
   .carousel-content {
     width: 100%;
-    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1964,7 +2859,29 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: 5% !important;
+    width: 4% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 3rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 33.5rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
+  }
+
+  .client-area {
+    padding: 3rem 1.5rem 1.5rem;
   }
 
   .demo-cta-area {
@@ -2002,10 +2919,18 @@
     margin: 0.5rem auto;
   }
 
+  #embedded-contact-form {
+    width: 90%;
+    height: 40rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 0;
+  }
+
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
-    grid-column-gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 8px;
     grid-row-gap: 6px;
     padding: 1.5rem 1.5rem 0;
     width: 100%;
@@ -2016,14 +2941,32 @@
   }
 
   .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
+  }
+
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+  }
+
+  .headline {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
   }
 
   .hero-headline {
     font-size: 2rem;
     line-height: 2.4rem;
     font-weight: 600;
+  }
+
+  .logo {
+    width: 9rem;
+    height: auto;
   }
 
   .life-at-omnivio-area {
@@ -2047,7 +2990,7 @@
     flex-direction: column;
     justify-content: start;
     width: 100%;
-    margin: 3rem auto 2rem;
+    margin: 3rem auto 0;
     position: relative;
   }
 
@@ -2059,12 +3002,12 @@
     position: absolute;
     width: fit-content;
     left: 18%;
-    bottom: 3.5rem;
+    bottom: 30%;
   }
 
   .marquee-angel-logo {
-    width: 4.4rem;
-    height: 4.4rem;
+    width: 4rem;
+    height: 4rem;
     background-position: center !important;
   }
 
@@ -2074,7 +3017,7 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin: 1rem auto auto;
+    margin: 0 auto;
   }
 
   .media-logo {
@@ -2083,7 +3026,7 @@
   }
 
   .mediaSlide {
-    height: 36rem;
+    height: 33.5rem;
   }
 
   .mentor-area-container {
@@ -2094,11 +3037,13 @@
   .mentor-grid {
     display: block;
     padding: 0 !important;
+    margin: 0 auto;
   }
 
   .mentor-group {
-    width: 100%;
-    padding: 1.5rem 0 0;
+    width: fit-content;
+    padding: 0 0 2rem;
+    margin: 0 auto;
   }
 
   .mentor-info {
@@ -2106,12 +3051,12 @@
   }
 
   .mentor-info h5 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 1.5rem;
   }
 
   .mentor-info p {
-    font-size: 1.1rem;
+    font-size: 1rem;
     line-height: 1.3rem;
   }
 
@@ -2135,8 +3080,9 @@
     background-position: center !important;
   }
 
-  .mentor-main-container {
-    padding: 1rem;
+  .mentor-logo-container {
+    margin: 1rem 0;
+    background-position: center !important;
   }
 
   .mentor-profile {
@@ -2144,7 +3090,7 @@
   }
 
   .mentor-profile-image {
-    height: 8rem;
+    height: 7rem;
     width: auto;
   }
 
@@ -2184,6 +3130,7 @@
     font-size: 2.2rem;
     line-height: 2.8rem;
     font-weight: 600;
+    width: 85%;
   }
 
   .product-feature-area {
@@ -2196,7 +3143,7 @@
 
   .product-feature-card {
     width: 95%;
-    height: 35rem;
+    height: 30rem;
     margin: 0 auto 2rem;
   }
 
@@ -2210,6 +3157,10 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 600px) {
   .about-us-hero-image {
     height: 20rem;
@@ -2217,25 +3168,15 @@
 
   #about-us-hero-image {
     background-image: url("Assets/images/about-us-hero-full.png") !important;
-    background-position: 0% -180%;
+    background-position: 0% -10% !important;
   }
 
   .about-us-hero-headline {
-    padding-top: 2.2rem;
-  }
-
-  .carousel-container {
-    padding: 1rem 1.4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 7%;
   }
 
   .carousel-content {
     width: 100%;
-    height: 95%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -2244,7 +3185,29 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: 5% !important;
+    width: 4% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 2.4rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 35rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
+  }
+
+  .client-area {
+    padding: 3rem 1.5rem 1.5rem;
   }
 
   .demo-cta-area {
@@ -2282,11 +3245,19 @@
     margin: 0.5rem auto;
   }
 
+  #embedded-contact-form {
+    width: 90%;
+    height: 40rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 0;
+  }
+
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-column-gap: 4px;
-    grid-row-gap: 4px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 8px;
+    grid-row-gap: 6px;
     padding: 1.5rem 1.5rem 0;
     width: 100%;
   }
@@ -2296,14 +3267,32 @@
   }
 
   .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
+  }
+
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+  }
+
+  .headline {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
   }
 
   .hero-headline {
-    font-size: 1.9rem;
-    line-height: 2.1rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
     font-weight: 600;
+  }
+
+  .logo {
+    width: 9rem;
+    height: auto;
   }
 
   .life-at-omnivio-area {
@@ -2326,25 +3315,26 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
-    width: 90%;
-    margin: 3rem auto 2rem;
+    width: 100%;
+    margin: 3rem auto 0;
     position: relative;
   }
 
   .marquee-angel-caption {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
     rotate: 0deg;
     text-align: center;
     position: absolute;
     width: fit-content;
     left: 18%;
-    bottom: 3rem;
+    bottom: 30%;
   }
 
   .marquee-angel-logo {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     background-position: center !important;
-    margin: 0.25rem;
   }
 
   .marquee-angel-logo-list {
@@ -2352,8 +3342,8 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    margin: 1rem auto auto;
+    width: 100%;
+    margin: 0 auto;
   }
 
   .media-logo {
@@ -2362,34 +3352,42 @@
   }
 
   .mediaSlide {
-    height: 36rem;
+    height: 35rem;
   }
 
   .mentor-area-container {
+    width: 100%;
     margin: 2rem auto 1rem;
   }
 
   .mentor-grid {
     display: block;
     padding: 0 !important;
+    margin: 0 auto;
+  }
+
+  .mentor-group {
+    width: fit-content;
+    padding: 0 0 2rem;
+    margin: 0 auto;
   }
 
   .mentor-info {
-    margin: 1rem 0 !important;
+    margin: 1rem 0 0 !important;
   }
 
   .mentor-info h5 {
-    font-size: 1.3rem;
-    line-height: 1rem;
+    font-size: 1.2rem;
+    line-height: 1.5rem;
   }
 
   .mentor-info p {
     font-size: 1rem;
-    line-height: 1.2rem;
+    line-height: 1.3rem;
   }
 
   .mentor-intro-container {
-    padding: 0;
+    padding: auto;
   }
 
   .mentor-intro-content {
@@ -2408,8 +3406,9 @@
     background-position: center !important;
   }
 
-  .mentor-main-container {
-    padding: 1rem;
+  .mentor-logo-container {
+    margin: 1rem 0;
+    background-position: center !important;
   }
 
   .mentor-profile {
@@ -2454,9 +3453,10 @@
   }
 
   .product-hero-headline {
-    font-size: 2.2rem;
-    line-height: 2.8rem;
+    font-size: 2rem;
+    line-height: 2.6rem;
     font-weight: 600;
+    width: 95%;
   }
 
   .product-feature-area {
@@ -2469,7 +3469,7 @@
 
   .product-feature-card {
     width: 95%;
-    height: 35rem;
+    height: 29rem;
     margin: 0 auto 2rem;
   }
 
@@ -2483,6 +3483,10 @@
   }
 }
 
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
 @media screen and (max-width: 550px) {
   .about-us-hero-image {
     height: 18rem;
@@ -2490,20 +3494,11 @@
 
   #about-us-hero-image {
     background-image: url("Assets/images/about-us-hero-full.png") !important;
-    background-position: 0% -100%;
+    background-position: 0% -10% !important;
   }
 
   .about-us-hero-headline {
-    padding-top: 2rem;
-  }
-
-  .carousel-container {
-    padding: 1rem 1.4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 8%;
   }
 
   .carousel-content {
@@ -2519,93 +3514,26 @@
     width: 5% !important;
   }
 
-  .client-icon {
-    width: 6rem;
-    height: 6rem;
-    margin: 1.5rem auto 1rem;
+  .carousel-indicators {
+    margin-bottom: 0.6rem !important;
   }
 
-  .client-testimonial {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 37rem;
   }
 
-  .client-testimonial-left {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
+  .carousel-item {
+    height: 100% !important;
   }
 
-  .client-testimonial-home {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  .carousel-item.active {
+    height: 100% !important;
   }
 
-  .contact-image {
-    width: 75%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .contact-form {
-    width: 90%;
-    height: 100%;
-  }
-
-  .contact-area {
-    margin: 3.5rem auto 2rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .cta-button {
-    background-color: var(--indigo);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--white);
-  }
-
-  .cta-button:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
-  }
-
-  .cta-button-white {
-    background-color: var(--white);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--indigo);
-  }
-
-  .cta-button-white:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
+  .client-area {
+    padding: 3rem 1.5rem 1.5rem;
   }
 
   .demo-cta-area {
@@ -2643,21 +3571,21 @@
     margin: 0.5rem auto;
   }
 
-  .footer-area {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+  #embedded-contact-form {
+    width: 90%;
+    height: 40rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 0;
   }
 
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-    grid-column-gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 8px;
     grid-row-gap: 6px;
-    width: 100%;
     padding: 1.5rem 1.5rem 0;
+    width: 100%;
   }
 
   .footer-content-item {
@@ -2665,64 +3593,36 @@
   }
 
   .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
   }
 
-  h5 {
-    font-size: 0.6 !important;
-    line-height: 1.5rem !important;
-  }
-
-  .h-screen {
-    height: auto !important;
-  }
-
-  .h-sm-30rem {
-    height: 30rem !important;
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
   }
 
   .headline {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 2rem;
     font-weight: 600;
     margin: 0 0 1rem;
   }
 
   .hero-headline {
-    font-size: 1.8rem;
-    line-height: 2rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
     font-weight: 600;
   }
 
   .hero-section {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
+    padding: 1.5rem;
   }
 
-  .hero-section-text {
-    width: 100%;
-  }
-
-  .hero-section-video {
-    width: 100%;
-  }
-
-  .investor-quote {
-    margin-bottom: 1.4rem;
-  }
-
-  .investor-speak {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
+  .logo {
+    width: 9rem;
+    height: auto;
   }
 
   .life-at-omnivio-area {
@@ -2741,91 +3641,39 @@
     width: 100%;
   }
 
-  .logo {
-    width: 7rem;
-    height: auto;
-  }
-
   .marquee-angel-area {
     display: flex;
     flex-direction: column;
     justify-content: start;
     width: 100%;
-    margin: 3rem auto 2rem;
+    margin: 3rem auto 0;
     position: relative;
   }
 
   .marquee-angel-caption {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
     rotate: 0deg;
     text-align: center;
     position: absolute;
     width: fit-content;
-    left: 14%;
-    bottom: 8rem;
+    left: 18%;
+    bottom: 30%;
   }
 
   .marquee-angel-logo {
-    width: 4.5rem;
-    height: 4.5rem;
+    width: 4rem;
+    height: 4rem;
     background-position: center !important;
-    margin: 0.4rem;
   }
 
   .marquee-angel-logo-list {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    height: 9rem;
-    flex-wrap: wrap;
-    margin: 1rem auto;
-  }
-
-  .mentor-grid {
-    display: block;
-    padding: 0 !important;
-  }
-
-  .mentor-info {
-    margin: 1rem 0;
-  }
-
-  .mentor-info h5 {
-    font-size: 1.2rem;
-    line-height: 1.4rem;
-  }
-
-  .mentor-info p {
-    font-size: 1rem;
-    line-height: 1.3rem;
-  }
-
-  .mentor-profile {
-    margin: 0 0 0.8rem;
-  }
-
-  .mentor-profile-image {
-    height: 7rem;
-    width: auto;
-  }
-
-  .media-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .media-content-link {
-    text-decoration: none;
-    color: var(--dark-grey);
-  }
-
-  .media-content-link:hover {
-    text-decoration: none;
-    color: var(--dark-grey);
+    margin: 0 auto;
   }
 
   .media-logo {
@@ -2834,24 +3682,63 @@
   }
 
   .mediaSlide {
-    height: 40rem;
+    height: 35rem;
+  }
+
+  .mentor-area-container {
+    width: 100%;
+    margin: 2rem auto 1rem;
+  }
+
+  .mentor-grid {
+    display: block;
+    padding: 0 !important;
+    margin: 0 auto;
+  }
+
+  .mentor-group {
+    width: fit-content;
+    padding: 0 0 2rem;
+    margin: 0 auto;
+  }
+
+  .mentor-info {
+    margin: 1rem 0 0 !important;
+  }
+
+  .mentor-info h5 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .mentor-info p {
+    font-size: 1rem;
+    line-height: 1.3rem;
   }
 
   .mentor-intro-container {
-    margin: 0.3rem 0.3rem 0;
+    padding: auto;
+  }
+
+  .mentor-intro-content {
+    width: 90% !important;
+    margin: 0.8rem auto;
+    padding: 1rem 0.5rem;
+  }
+
+  .mentor-intro-content h5 {
+    font-size: 0.9;
+    line-height: 1.3rem;
   }
 
   .mentor-logo-container {
-    margin: 0.3rem 0.3rem 0;
+    margin: 1rem 0 0;
     background-position: center !important;
   }
 
-  .mentor-main-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile-container {
-    padding: 1rem;
+  .mentor-logo-container {
+    margin: 1rem 0;
+    background-position: center !important;
   }
 
   .mentor-profile {
@@ -2861,6 +3748,14 @@
   .mentor-profile-image {
     height: 7rem;
     width: auto;
+  }
+
+  .mentor-section {
+    padding: 1rem;
+  }
+
+  .product-description-section {
+    padding: 0 1rem;
   }
 
   #product-feature-1 {
@@ -2892,127 +3787,52 @@
   }
 
   .product-hero-headline {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.9rem;
+    line-height: 2.4rem;
     font-weight: 600;
+    width: 95%;
   }
 
   .product-feature-area {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
-    margin: 1.2rem 0;
   }
 
   .product-feature-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1.4rem;
+    width: 95%;
+    height: 29rem;
+    margin: 0 auto 2rem;
   }
 
-  .product-info-area {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-area-straight {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info {
-  }
-
-  .product-visual {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .profile-founder {
-    width: 100%;
-    margin-bottom: 1.2rem;
-  }
-
-  .profile-image-founder {
-    height: 24rem;
-    width: 100%;
-  }
-
-  .profile-investor {
-    width: 75%;
-    height: 16rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .team-picture {
-    width: 24rem;
-    height: 22rem;
-  }
-
-  .testimonial-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .testimonial-quote-icon {
-    width: 15%;
-  }
-
-  .testimonial-text {
-    width: 90%;
+  .team-section h5 {
+    font-size: 0.9 !important;
+    line-height: 1.4rem !important;
   }
 
   .testimonial-text-home {
     width: 100%;
   }
-
-  .w-sm-100 {
-    width: 100%;
-  }
 }
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
 
 @media screen and (max-width: 500px) {
   .about-us-hero-image {
-    height: 19rem;
+    height: 18rem;
   }
 
   #about-us-hero-image {
     background-image: url("Assets/images/about-us-hero-full.png") !important;
-    background-position: 0% -50%;
+    background-position: 0% -10% !important;
   }
 
   .about-us-hero-headline {
-    padding-top: 1.5rem;
-  }
-
-  .carousel-container {
-    padding: 1rem 1.4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding-top: 8%;
   }
 
   .carousel-content {
@@ -3025,96 +3845,29 @@
 
   .carousel-control-next,
   .carousel-control-prev {
-    width: 5% !important;
+    width: 6% !important;
   }
 
-  .client-icon {
-    width: 6rem;
-    height: 6rem;
-    margin: 1.5rem auto 1rem;
+  .carousel-indicators {
+    margin-bottom: 1.5rem !important;
   }
 
-  .client-testimonial {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 41rem;
   }
 
-  .client-testimonial-left {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
+  .carousel-item {
+    height: 100% !important;
   }
 
-  .client-testimonial-home {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
+  .carousel-item.active {
+    height: 100% !important;
   }
 
-  .contact-image {
-    width: 75%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .contact-form {
-    width: 90%;
-    height: 100%;
-  }
-
-  .contact-area {
-    margin: 3.5rem auto 2rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .cta-button {
-    background-color: var(--indigo);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--white);
-  }
-
-  .cta-button:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
-  }
-
-  .cta-button-white {
-    background-color: var(--white);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--indigo);
-  }
-
-  .cta-button-white:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
+  .client-area {
+    padding: 3rem 1.5rem 1.5rem;
   }
 
   .demo-cta-area {
@@ -3152,21 +3905,21 @@
     margin: 0.5rem auto;
   }
 
-  .footer-area {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
+  #embedded-contact-form {
+    width: 90%;
+    height: 40rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 0;
   }
 
   .footer-content {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-column-gap: 6px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 8px;
     grid-row-gap: 6px;
-    width: 100%;
     padding: 1.5rem 1.5rem 0;
+    width: 100%;
   }
 
   .footer-content-item {
@@ -3174,64 +3927,734 @@
   }
 
   .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
   }
 
-  h5 {
-    font-size: 0.6 !important;
-    line-height: 1.5rem !important;
-  }
-
-  .h-screen {
-    height: auto !important;
-  }
-
-  .h-sm-30rem {
-    height: 30rem !important;
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
   }
 
   .headline {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
     font-weight: 600;
-    margin: 0 0 1.8rem;
+    margin: 0 0 1rem;
   }
 
   .hero-headline {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
+    font-size: 2rem;
+    line-height: 2.4rem;
     font-weight: 600;
+    text-align: center;
   }
 
   .hero-section {
+    padding: 1.5rem;
+  }
+
+  .logo {
+    width: 9rem;
+    height: auto;
+  }
+
+  .life-at-omnivio-area {
+    width: 100%;
     display: flex;
     flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
   }
 
-  .hero-section-text {
+  .life-at-omnivio-content {
+    width: 95%;
+  }
+
+  .life-at-omnivio-image {
     width: 100%;
   }
 
-  .hero-section-video {
+  .marquee-angel-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
     width: 100%;
+    margin: 3rem auto 0;
+    position: relative;
   }
 
-  .investor-quote {
-    margin-bottom: 1.4rem;
+  .marquee-angel-caption {
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    rotate: 0deg;
+    text-align: center;
+    position: absolute;
+    width: fit-content;
+    left: 18%;
+    bottom: 30%;
   }
 
-  .investor-speak {
+  .marquee-angel-logo {
+    width: 4rem;
+    height: 4rem;
+    background-position: center !important;
+  }
+
+  .marquee-angel-logo-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
+    margin: 0 auto;
+  }
+
+  .media-logo {
+    height: 4rem !important;
+    width: auto !important;
+  }
+
+  .mediaSlide {
+    height: 40rem;
+  }
+
+  .mentor-area-container {
+    width: 100%;
+    margin: 2rem auto 1rem;
+  }
+
+  .mentor-grid {
+    display: block;
+    padding: 0 !important;
+    margin: 0 auto;
+  }
+
+  .mentor-group {
+    width: fit-content;
+    padding: 0 0 2rem;
+    margin: 0 auto;
+  }
+
+  .mentor-info {
+    margin: 1rem 0 0 !important;
+  }
+
+  .mentor-info h5 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .mentor-info p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .mentor-intro-container {
+    padding: auto;
+  }
+
+  .mentor-intro-content {
+    width: 90% !important;
+    margin: 0.8rem auto;
+    padding: 1rem 0.5rem;
+  }
+
+  .mentor-intro-content h5 {
+    font-size: 0.9;
+    line-height: 1.3rem;
+  }
+
+  .mentor-logo-container {
+    margin: 1rem 0 0;
+    background-position: center !important;
+  }
+
+  .mentor-logo-container {
+    margin: 1rem 0;
+    background-position: center !important;
+  }
+
+  .mentor-profile {
+    margin: 0 0 1rem;
+  }
+
+  .mentor-profile-image {
+    height: 7rem;
+    width: auto;
+  }
+
+  .mentor-section {
+    padding: 1rem;
+  }
+
+  .product-description-section {
+    padding: 0 1rem;
+  }
+
+  #product-feature-1 {
+    flex-direction: column-reverse;
+  }
+  #product-feature-2 {
+    flex-direction: column-reverse;
+  }
+  #product-feature-3 {
+    flex-direction: column-reverse;
+  }
+
+  .product-feature-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem auto;
+  }
+
+  .product-feature-content {
+    width: 90%;
+  }
+
+  .product-feature-image {
+    width: 50%;
+    margin: 0 auto 2rem;
+  }
+
+  .product-hero-headline {
+    font-size: 1.9rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    width: 96%;
+  }
+
+  .product-feature-area {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .product-feature-card {
+    width: 95%;
+    height: 28rem;
+    margin: 0 auto 2rem;
+  }
+
+  .team-section h5 {
+    font-size: 0.9 !important;
+    line-height: 1.4rem !important;
+  }
+
+  .testimonial-text-home {
+    width: 100%;
+  }
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 450px) {
+  .about-hero-headline {
+    font-size: 1.7rem;
+    line-height: 2.4rem;
+    font-weight: 700;
+  }
+
+  .about-us-hero-image {
+    height: 15rem;
+  }
+
+  #about-us-hero-image {
+    background-image: url("Assets/images/about-us-hero-full.png") !important;
+    background-position: 0% -10% !important;
+  }
+
+  .about-us-hero-headline {
+    padding-top: 8%;
+  }
+
+  .carousel-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1rem;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 6% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 2.5rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 42rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
+  }
+
+  .client-area {
+    padding: 3rem 1.5rem 1.5rem;
+  }
+
+  .client-icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 1.5rem auto 1rem;
+  }
+
+  .demo-cta-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .demo-cta-content {
+    width: 100%;
+  }
+
+  .demo-cta-image {
+    margin: 2rem auto 0;
+    width: 100%;
+    height: 24rem;
+  }
+
+  .demo-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .demo-input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0.5rem auto;
+  }
+
+  #embedded-contact-form {
+    width: 90%;
+    height: 40rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 0;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 8px;
+    grid-row-gap: 6px;
+    padding: 1.5rem 1.5rem 0;
+    width: 100%;
+  }
+
+  .footer-content-item {
+    margin-bottom: 2rem;
+  }
+
+  .footer-content-link {
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
+  }
+
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+  }
+
+  .headline {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin: 0 0 1rem;
+  }
+
+  .hero-headline {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 1.5rem;
+  }
+
+  .logo {
+    width: 8rem;
+    height: auto;
+  }
+
+  .life-at-omnivio-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .life-at-omnivio-content {
+    width: 95%;
+  }
+
+  .life-at-omnivio-image {
+    width: 100%;
+  }
+
+  .marquee-angel-area {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    margin: 3rem auto 0;
+    position: relative;
+  }
+
+  .marquee-angel-caption {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    rotate: 0deg;
+    text-align: center;
+    position: absolute;
+    width: fit-content;
+    left: 9%;
+    bottom: 32%;
+  }
+
+  .marquee-angel-logo {
+    width: 4rem;
+    height: 4rem;
+    background-position: center !important;
+    margin: 0.25rem;
+  }
+
+  .marquee-angel-logo-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .media-logo {
+    height: 4rem !important;
+    width: auto !important;
+  }
+
+  .mediaSlide {
+    height: 42rem;
+  }
+
+  .mentor-area-container {
+    width: 100%;
+    margin: 2rem auto 1rem;
+  }
+
+  .mentor-grid {
+    display: block;
+    padding: 0 !important;
+    margin: 0 auto;
+  }
+
+  .mentor-group {
+    width: fit-content;
+    padding: 0 0 2rem;
+    margin: 0 auto;
+  }
+
+  .mentor-info {
+    margin: 1rem 0 0 !important;
+  }
+
+  .mentor-info h5 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  .mentor-info p {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+
+  .mentor-intro-container {
+    padding: auto;
+  }
+
+  .mentor-intro-content {
+    width: 90% !important;
+    margin: 0.8rem auto;
+    padding: 1rem 0.5rem;
+  }
+
+  .mentor-intro-content h5 {
+    font-size: 0.9;
+    line-height: 1.3rem;
+  }
+
+  .mentor-logo-container {
+    margin: 1rem 0 0;
+    background-position: center !important;
+  }
+
+  .mentor-logo-container {
+    margin: 1rem 0;
+    background-position: center !important;
+  }
+
+  .mentor-profile {
+    margin: 0 0 1rem;
+  }
+
+  .mentor-profile-image {
+    height: 7rem;
+    width: auto;
+  }
+
+  .mentor-section {
+    padding: 1rem;
+  }
+
+  #omnivio-product-animation {
+    background-image: url(Assets/videos/omniview-product.gif);
+    height: 10rem;
+    background-position: 50% 60% !important;
+    margin: 2rem auto 0;
+  }
+
+  .product-description-section {
+    padding: 0 1rem;
+  }
+
+  #product-feature-1 {
+    flex-direction: column-reverse;
+  }
+  #product-feature-2 {
+    flex-direction: column-reverse;
+  }
+  #product-feature-3 {
+    flex-direction: column-reverse;
+  }
+
+  .product-feature-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 3rem auto;
+  }
+
+  .product-feature-content {
+    width: 90%;
+  }
+
+  .product-feature-image {
+    width: 50%;
+    margin: 0 auto 2rem;
+  }
+
+  .product-hero-headline {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    font-weight: 600;
+    width: 98%;
+  }
+
+  .product-feature-area {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .product-feature-card {
+    width: 95%;
+    height: 28rem;
+    margin: 0 auto 2rem;
+  }
+
+  .team-section h5 {
+    font-size: 0.9 !important;
+    line-height: 1.4rem !important;
+  }
+
+  .testimonial-text-home {
+    width: 100%;
+  }
+}
+
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+
+@media screen and (max-width: 400px) {
+  .about-hero-headline {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: 700;
+  }
+
+  .about-us-hero-image {
+    height: 13rem;
+  }
+
+  #about-us-hero-image {
+    background-image: url("Assets/images/about-us-hero-full.png") !important;
+    background-position: 0% -10% !important;
+  }
+
+  .about-us-hero-headline {
+    padding-top: 7%;
+  }
+
+  .carousel-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 6% !important;
+  }
+
+  .carousel-indicators {
+    margin-bottom: 2.5rem !important;
+  }
+
+  .carousel-inner {
+    overflow: hidden !important;
+    padding: 2rem;
+    height: 53rem;
+  }
+
+  .carousel-item {
+    height: 100% !important;
+  }
+
+  .carousel-item.active {
+    height: 100% !important;
+  }
+
+  .client-area {
+    padding: 3rem 1.5rem 1.5rem;
+  }
+
+  .client-icon {
+    width: 5rem;
+    height: 5rem;
+    margin: 1.5rem auto 1rem;
+  }
+
+  .demo-cta-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .demo-cta-content {
+    width: 100%;
+  }
+
+  .demo-cta-image {
+    margin: 2rem auto 0;
+    width: 100%;
+    height: 24rem;
+  }
+
+  .demo-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .demo-input-box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0.5rem auto;
+  }
+
+  #embedded-contact-form {
+    width: 90%;
+    height: 43rem;
+    background-color: var(--extralight-grey);
+    border-radius: 1rem;
+    padding: 0;
+  }
+
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 8px;
+    grid-row-gap: 6px;
+    padding: 1.5rem 1.5rem 0;
+    width: 100%;
+  }
+
+  .footer-content-item {
+    margin-bottom: 2rem;
+  }
+
+  .footer-content-link {
+    font-size: 0.9rem !important;
+    line-height: 1.3rem !important;
+  }
+
+  .footer-group-caption {
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    font-weight: 600;
+  }
+
+  .headline {
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 600;
+    margin: 0 0 0.5rem;
+  }
+
+  .hero-headline {
+    font-size: 1.8rem;
+    line-height: 2.3rem;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .hero-section {
+    padding: 1.5rem;
   }
 
   .life-at-omnivio-area {
@@ -3251,7 +4674,7 @@
   }
 
   .logo {
-    width: 7rem;
+    width: 8rem;
     height: auto;
   }
 
@@ -3260,632 +4683,109 @@
     flex-direction: column;
     justify-content: start;
     width: 100%;
-    margin: 3rem auto 2rem;
+    margin: 3rem auto 0;
     position: relative;
   }
 
   .marquee-angel-caption {
+    font-size: 1.1rem;
+    line-height: 1.5rem;
     rotate: 0deg;
     text-align: center;
     position: absolute;
     width: fit-content;
-    left: 10%;
-    bottom: 8rem;
+    left: 5%;
+    bottom: 55%;
   }
 
   .marquee-angel-logo {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
     background-position: center !important;
-    margin: 0.3rem;
+    margin: 0.25rem;
   }
 
   .marquee-angel-logo-list {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 90%;
-    height: 9rem;
-    flex-wrap: wrap;
-    margin: 1rem auto;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .media-logo {
+    height: 4rem !important;
+    width: auto !important;
+  }
+
+  .mediaSlide {
+    height: 53rem;
+  }
+
+  .mentor-area-container {
+    width: 100%;
+    margin: 2rem auto 1rem;
   }
 
   .mentor-grid {
     display: block;
     padding: 0 !important;
+    margin: 0 auto;
+  }
+
+  .mentor-group {
+    width: fit-content;
+    padding: 0 0 2rem;
+    margin: 0 auto;
   }
 
   .mentor-info {
-    margin: 1rem 0;
+    margin: 0.6rem 0 0 !important;
   }
 
   .mentor-info h5 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.4rem;
   }
 
   .mentor-info p {
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.3rem;
   }
 
-  .mentor-profile {
-    margin: 0 0 0.8rem;
-  }
-
-  .mentor-profile-image {
-    height: 6rem;
-    width: auto;
-  }
-
-  .media-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .media-content-link {
-    text-decoration: none;
-    color: var(--dark-grey);
-  }
-
-  .media-content-link:hover {
-    text-decoration: none;
-    color: var(--dark-grey);
-  }
-
-  .media-logo {
-    height: 4rem !important;
-    width: auto !important;
-  }
-
-  .mediaSlide {
-    height: 40rem;
-  }
-
   .mentor-intro-container {
-    margin: 0.3rem 0.3rem 0;
+    padding: auto;
+  }
+
+  .mentor-intro-content {
+    width: 90% !important;
+    margin: 0.8rem auto;
+    padding: 1rem 0.5rem;
+  }
+
+  .mentor-intro-content h5 {
+    font-size: 0.9;
+    line-height: 1.3rem;
   }
 
   .mentor-logo-container {
-    margin: 0.3rem 0.3rem 0;
+    margin: 1rem 0 0;
     background-position: center !important;
   }
 
-  .mentor-main-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile-container {
-    padding: 1rem;
+  .mentor-logo-container {
+    margin: 1rem 0;
+    background-position: center !important;
   }
 
   .mentor-profile {
     margin: 0 0 1rem;
   }
 
-  #product-feature-1 {
-    flex-direction: column-reverse;
-  }
-  #product-feature-2 {
-    flex-direction: column-reverse;
-  }
-  #product-feature-3 {
-    flex-direction: column-reverse;
-  }
-
-  .product-feature-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem auto;
-  }
-
-  .product-feature-content {
-    width: 90%;
-  }
-
-  .product-feature-image {
-    width: 50%;
-    margin: 0 auto 2rem;
-  }
-
-  .product-hero-headline {
-    font-size: 2rem;
-    line-height: 2.5rem;
-    font-weight: 600;
-  }
-
-  .product-feature-area {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-    margin: 1.2rem 0;
-  }
-
-  .product-feature-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1.4rem;
-  }
-
-  .product-info-area {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-area-straight {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info {
-  }
-
-  .product-visual {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .profile-founder {
-    width: 100%;
-    margin-bottom: 1.2rem;
-  }
-
-  .profile-image-founder {
-    height: 24rem;
-    width: 100%;
-  }
-
-  .profile-investor {
-    width: 75%;
-    height: 16rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .team-picture {
-    width: 24rem;
-    height: 22rem;
-  }
-
-  .testimonial-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .testimonial-quote-icon {
-    width: 15%;
-  }
-
-  .testimonial-text {
-    width: 90%;
-  }
-
-  .testimonial-text-home {
-    width: 100%;
-  }
-
-  .w-sm-100 {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .about-us-hero-image {
-    height: 16rem;
-  }
-
-  #about-us-hero-image {
-    background-image: url("Assets/images/about-us-hero-full.png") !important;
-    background-position: 0% -10% !important;
-  }
-
-  .about-us-hero-headline {
-    padding-top: 1.5rem;
-  }
-
-  .carousel-container {
-    padding: 1rem 1.4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .carousel-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: nowrap; */
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .carousel-control-next,
-  .carousel-control-prev {
-    width: 5% !important;
-  }
-
-  .client-icon {
-    width: 6rem;
-    height: 6rem;
-    margin: 1.5rem auto 1rem;
-  }
-
-  .client-testimonial {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .client-testimonial-left {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .client-testimonial-home {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contact-image {
-    width: 75%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .contact-form {
-    width: 90%;
-    height: 100%;
-  }
-
-  .contact-area {
-    margin: 3.5rem auto 2rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .cta-button {
-    background-color: var(--indigo);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--white);
-  }
-
-  .cta-button:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
-  }
-
-  .cta-button-white {
-    background-color: var(--white);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--indigo);
-  }
-
-  .cta-button-white:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
-  }
-
-  .demo-cta-area {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .demo-cta-content {
-    width: 100%;
-  }
-
-  .demo-cta-image {
-    margin: 2rem auto 0;
-    width: 100%;
-    height: 24rem;
-  }
-
-  .demo-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .demo-input-box {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: 0.5rem auto;
-  }
-
-  .footer-area {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    grid-column-gap: 6px;
-    grid-row-gap: 6px;
-    width: 100%;
-    padding: 1.5rem 1.5rem 0;
-  }
-
-  .footer-content-item {
-    margin-bottom: 2rem;
-  }
-
-  .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
-  }
-
-  h5 {
-    font-size: 0.6 !important;
-    line-height: 1.5rem !important;
-  }
-
-  .h-screen {
-    height: auto !important;
-  }
-
-  .h-sm-30rem {
-    height: 30rem !important;
-  }
-
-  .headline {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    font-weight: 600;
-    margin: 0 0 1.8rem;
-  }
-
-  .hero-headline {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    font-weight: 600;
-  }
-
-  .hero-section {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .hero-section-text {
-    width: 100%;
-  }
-
-  .hero-section-video {
-    width: 100%;
-  }
-
-  .investor-quote {
-    margin-bottom: 1.4rem;
-  }
-
-  .investor-speak {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-
-  .life-at-omnivio-area {
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .life-at-omnivio-image {
-    width: 100%;
-  }
-
-  .logo {
-    width: 7rem;
-    height: auto;
-  }
-
-  .marquee-angel-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 100%;
-    margin: 3rem auto 0;
-    position: relative;
-  }
-
-  .marquee-angel-caption {
-    font-size: 1.2rem !important;
-    line-height: 1.5rem !important;
-    rotate: 0deg;
-    text-align: center;
-    position: absolute;
-    width: fit-content;
-    left: 10%;
-    bottom: 7rem;
-  }
-
-  .marquee-angel-logo {
-    width: 4rem;
-    height: 4rem;
-    background-position: center !important;
-    margin: 0.3rem;
-  }
-
-  .marquee-angel-logo-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 90%;
-    height: 9rem;
-    flex-wrap: wrap;
-    margin: 1rem auto 0;
-  }
-
-  .media-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .media-content-link {
-    text-decoration: none;
-    color: var(--dark-grey);
-  }
-
-  .media-content-link:hover {
-    text-decoration: none;
-    color: var(--dark-grey);
-  }
-
-  .media-logo {
-    height: 4rem !important;
-    width: auto !important;
-  }
-
-  .mediaSlide {
-    height: 43rem;
-  }
-
-  .mentor-area {
-    padding: 0;
-  }
-
-  .mentor-area-container {
-    width: 100%;
-  }
-
-  .mentor-company-logo {
-    height: 2rem;
-    width: auto;
-  }
-
-  .mentor-grid {
-    display: block;
-    padding: 0 !important;
-  }
-
-  .mentor-group {
-    width: 100%;
-    padding: 1.5rem 0 0;
-  }
-
-  .mentor-info {
-    margin: 1rem 0;
-  }
-
-  .mentor-info h5 {
-    font-size: 1.1rem;
-    line-height: 1.3rem;
-  }
-
-  .mentor-info p {
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-  }
-
-  .mentor-logo-container {
-    width: 20%;
-    height: 4rem;
-    margin: 2rem 0.5rem;
-    background-position: center;
-  }
-
-  .mentor-intro-content {
-    width: 95% !important;
-    margin: 1rem 0;
-    padding: 0;
-  }
-
-  .mentor-main-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile {
-    margin: 0 0 0.8rem;
-  }
-
-  .mentor-profile-companies {
-    height: 2rem;
-    width: auto !important;
-  }
-
   .mentor-profile-image {
-    height: 6rem;
+    height: 7rem;
     width: auto;
   }
 
@@ -3893,570 +4793,15 @@
     padding: 1rem;
   }
 
-  .mentor-intro-container {
-    margin: 0.3rem 0.3rem 0;
-  }
-
-  .mentor-logo-container {
-    background-position: center !important;
-    margin: 0.3rem 0.3rem 0;
-  }
-
-  .mentor-main-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile {
-    margin: 0 0 1rem;
-  }
-
-  #product-feature-1 {
-    flex-direction: column-reverse;
-  }
-  #product-feature-2 {
-    flex-direction: column-reverse;
-  }
-  #product-feature-3 {
-    flex-direction: column-reverse;
-  }
-
-  .product-feature-container {
-    width: 100%;
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 3rem auto;
-  }
-
-  .product-feature-content {
-    width: 90%;
-  }
-
-  .product-feature-image {
-    width: 50%;
-    margin: 0 auto 2rem;
-  }
-
-  .product-hero-headline {
-    font-size: 2rem;
-    line-height: 2.5rem;
-    font-weight: 600;
-  }
-
-  .product-feature-area {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-    margin: 1.2rem 0;
-  }
-
-  .product-feature-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1.4rem;
-  }
-
-  .product-info-area {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-area-straight {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info {
-  }
-
-  .product-visual {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .profile-founder {
-    width: 100%;
-    margin-bottom: 1.2rem;
-  }
-
-  .profile-image-founder {
-    height: 24rem;
-    width: 100%;
-  }
-
-  .profile-investor {
-    width: 75%;
-    height: 16rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .team-picture {
-    width: 24rem;
-    height: 22rem;
-  }
-
-  .testimonial-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .testimonial-quote-icon {
-    width: 15%;
-  }
-
-  .testimonial-text {
-    width: 90%;
-  }
-
-  .testimonial-text-home {
-    width: 100%;
-  }
-
-  .w-sm-100 {
-    width: 100%;
-  }
-}
-
-@media screen and (max-width: 400px) {
-  .about-us-hero-image {
-    height: 14rem;
-  }
-
-  #about-us-hero-image {
-    background-image: url("Assets/images/about-us-hero-full.png") !important;
-    background-position: 0% -10% !important;
-  }
-
-  .about-us-hero-headline {
-    padding-top: 3%;
-  }
-
-  .carousel-container {
-    padding: 1rem 1.4rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .carousel-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* flex-wrap: nowrap; */
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .carousel-control-next,
-  .carousel-control-prev {
-    width: 5% !important;
-  }
-
-  .client-icon {
-    width: 6rem;
-    height: 6rem;
-    margin: 1.5rem auto 1rem;
-  }
-
-  .client-testimonial {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .client-testimonial-left {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .client-testimonial-home {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .contact-image {
-    width: 75%;
-    height: auto;
-    margin-bottom: 1rem;
-  }
-
-  .contact-form {
-    width: 90%;
-    height: 100%;
-  }
-
-  .contact-area {
-    margin: 3.5rem auto 2rem;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .cta-button {
-    background-color: var(--indigo);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--white);
-  }
-
-  .cta-button:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
-  }
-
-  .cta-button-white {
-    background-color: var(--white);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    letter-spacing: 0.15rem;
-    font-weight: 700;
-    padding: 0.8rem 2rem;
-    border: none;
-    outline: none;
-    color: var(--indigo);
-  }
-
-  .cta-button-white:hover {
-    opacity: 0.85;
-    transition: 200ms;
-    outline: none;
-  }
-
-  .demo-cta-area {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .demo-cta-content {
-    width: 100%;
-  }
-
-  .demo-cta-image {
+  #omnivio-product-animation {
+    background-image: url(Assets/videos/omniview-product.gif);
+    height: 10rem;
+    background-position: 50% 60% !important;
     margin: 2rem auto 0;
-    width: 100%;
-    height: 24rem;
   }
 
-  .demo-form {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .demo-input-box {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    margin: 0.5rem auto;
-  }
-
-  .footer-area {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .footer-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-    grid-column-gap: 4px;
-    grid-row-gap: 6px;
-    width: 100%;
-    padding: 1.5rem 1.5rem 0;
-  }
-
-  .footer-content-item {
-    margin-bottom: 2rem;
-  }
-
-  .footer-content-link {
-    font-size: 0.8rem !important;
-    line-height: 1.6rem !important;
-  }
-
-  h5 {
-    font-size: 0.6 !important;
-    line-height: 1.5rem !important;
-  }
-
-  .h-screen {
-    height: auto !important;
-  }
-
-  .h-sm-30rem {
-    height: 30rem !important;
-  }
-
-  .headline {
-    font-size: 1.8rem;
-    line-height: 1.8rem;
-    font-weight: 600;
-    margin: 0 0 1.8rem;
-  }
-
-  .hero-headline {
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    font-weight: 600;
-  }
-
-  .hero-section {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: start;
-    align-items: center;
-  }
-
-  .hero-section-text {
-    width: 100%;
-  }
-
-  .hero-section-video {
-    width: 100%;
-  }
-
-  .investor-quote {
-    margin-bottom: 1.4rem;
-  }
-
-  .investor-speak {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-  }
-
-  .life-at-omnivio-area {
-    width: 100%;
-    display: flex;
-    flex-direction: column-reverse;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .life-at-omnivio-image {
-    width: 100%;
-  }
-
-  .logo {
-    width: 7rem;
-    height: auto;
-  }
-
-  .marquee-angel-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    width: 100%;
-    margin: 3rem auto 0;
-    position: relative;
-  }
-
-  .marquee-angel-caption {
-    font-size: 1.2rem !important;
-    line-height: 1.5rem !important;
-    rotate: 0deg;
-    text-align: center;
-    position: absolute;
-    width: fit-content;
-    left: 10%;
-    bottom: 8rem;
-  }
-
-  .marquee-angel-logo {
-    width: 4rem;
-    height: 4rem;
-    background-position: center !important;
-    margin: 0.3rem;
-  }
-
-  .marquee-angel-logo-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 9rem;
-    flex-wrap: wrap;
-    margin: 1rem auto 0;
-  }
-
-  .media-content {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-  .media-content-link {
-    text-decoration: none;
-    color: var(--dark-grey);
-  }
-
-  .media-content-link:hover {
-    text-decoration: none;
-    color: var(--dark-grey);
-  }
-
-  .media-logo {
-    height: 4rem !important;
-    width: auto !important;
-  }
-
-  .mediaSlide {
-    height: 49rem;
-  }
-
-  .mentor-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0;
-  }
-
-  .mentor-area-container {
-    width: 100%;
-  }
-
-  .mentor-company-logo {
-    height: 2rem;
-    width: auto;
-  }
-
-  .mentor-grid {
-    display: block;
-    padding: 0 !important;
-  }
-
-  .mentor-group {
-    width: 100%;
-    padding: 1.5rem 0 0;
-  }
-
-  .mentor-info {
-    margin: 1rem 0;
-  }
-
-  .mentor-info h5 {
-    font-size: 1rem;
-    line-height: 1.2rem;
-  }
-
-  .mentor-info p {
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-  }
-
-  .mentor-logo-container {
-    /* width: 20%; */
-    height: 4rem;
-    margin: 0.5rem;
-    background-position: center;
-  }
-
-  .mentor-intro-content {
-    width: 95% !important;
-    margin: 1rem 0;
-    padding: 0;
-  }
-
-  .mentor-main-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile {
-    margin: 0 0 0.8rem;
-  }
-
-  .mentor-profile-companies {
-    height: 2rem;
-    width: auto !important;
-  }
-
-  .mentor-profile-image {
-    height: 6rem;
-    width: auto;
-  }
-
-  .mentor-section {
-    padding: 1rem;
-  }
-
-  .mentor-intro-container {
-    margin: 0.3rem 0.3rem 0;
-  }
-
-  .mentor-main-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile-container {
-    padding: 1rem;
-  }
-
-  .mentor-profile {
-    margin: 0 0 1rem;
+  .product-description-section {
+    padding: 0 1rem;
   }
 
   #product-feature-1 {
@@ -4488,102 +4833,32 @@
   }
 
   .product-hero-headline {
-    font-size: 2rem;
-    line-height: 2.5rem;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
     font-weight: 600;
+    width: 98%;
   }
 
   .product-feature-area {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
-    margin: 1.2rem 0;
   }
 
   .product-feature-card {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1.4rem;
+    width: 95%;
+    height: 26rem;
+    margin: 0 auto 2rem;
   }
 
-  .product-info-area {
-    display: flex;
-    flex-direction: column-reverse;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-area-straight {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .product-info {
-  }
-
-  .product-visual {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .profile-founder {
-    width: 100%;
-    margin-bottom: 1.2rem;
-  }
-
-  .profile-image-founder {
-    height: 24rem;
-    width: 100%;
-  }
-
-  .profile-investor {
-    width: 75%;
-    height: 16rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .team-picture {
-    width: 24rem;
-    height: 22rem;
-  }
-
-  .testimonial-content {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  .testimonial-quote-icon {
-    width: 15%;
-  }
-
-  .testimonial-text {
-    width: 90%;
+  .team-section h5 {
+    font-size: 0.9 !important;
+    line-height: 1.4rem !important;
   }
 
   .testimonial-text-home {
-    width: 100%;
-  }
-
-  .w-sm-100 {
     width: 100%;
   }
 }
